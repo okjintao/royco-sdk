@@ -75,10 +75,12 @@ export const getBeraApy = (
   const currentMarketWeight = marketTVLMultiplied / marketTypeBucketWeight;
   //   console.log("BERA APY-Market weight", currentMarketWeight);
 
+  // usd amount of bera in bucket 
   const beraSupplyInBucket =
     beraSupplyOnBoyco * beraPrice * weightOfBucketOnBoyco;
   //   console.log("BERA APY-Bera supply on boyco multiplied", beraSupplyInBucket);
 
+  
   const rebaseIncentives = currentMarketWeight * beraSupplyInBucket;
   //   console.log("BERA APY-Rebase incentives", rebaseIncentives);
 
