@@ -1,0 +1,1114 @@
+[
+  {
+    "name": "Deploy ETH into superOETH",
+    "id": "0x28b5f996e5aaf9e44d9a80743486573661317b1a",
+    "tokens": 0,
+    "tvl": 0,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Deploy ETH into OETH",
+    "id": "0x470fa30720ab37a46119c81f6e0c3cdf4c476faa",
+    "tokens": 0,
+    "tvl": 0,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Deposit S to OS",
+    "id": "0x7f24390ef4f8c1a372524ff1fa3a1d79d66d86ca",
+    "tokens": 0,
+    "tvl": 0,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Lend USDC on Dahlia (WBERA&#x2F;USDC)",
+    "id": "0x20ca89af1fd136d0ef9c4e3e74e8ab1943d28e6879206a3e180fd35e29fb2d7d",
+    "tokens": 36414063931,
+    "tvl": 36411.74444276733,
+    "bera": 213.56225908543084,
+    "apr": 9.514662036061333
+  },
+  {
+    "name": "BurrBear USDC Stable Pool",
+    "id": "0x71cee3cf3329e9a2803d578cdd6c823d7a16aa39adea3a7053395299bd258800",
+    "tokens": 2475722089529,
+    "tvl": 2475564.391990354,
+    "bera": 13067.718093164154,
+    "apr": 8.563195832455202
+  },
+  {
+    "name": "Beraborrow SolvBTC.BBN Boyco",
+    "id": "0x54b4b37c355868591a91baed36a3c8083f6480ccb11145106d0dad912d7dffd2",
+    "tokens": 973381556352981000000,
+    "tvl": 94484598.27226408,
+    "bera": 139347.49046426176,
+    "apr": 2.3924808886908533
+  },
+  {
+    "name": "Supply rsETH into Goldilocks",
+    "id": "0xab32e1695b84b148140cb78c044d247e307b26cb043dc5538657f3a5634dee6e",
+    "tokens": 626219601291736500000,
+    "tvl": 1673832.3220648644,
+    "bera": 2468.596340597191,
+    "apr": 2.3924808886908533
+  },
+  {
+    "name": "Supply solvBTC.bbn into Goldilocks",
+    "id": "0xbd3ef685577bdca03225bb2cd2158f0772cdfd694ba03b9eb4856b59a7288081",
+    "tokens": 562734362324445200,
+    "tvl": 54623.728805215585,
+    "bera": 80.5600030903831,
+    "apr": 2.3924808886908537
+  },
+  {
+    "name": "Supply uniBTC into Goldilocks",
+    "id": "0x72679855f582a6d908bf39d40cb5a299b6a98a82bf1bfd9055f1853fc5160f54",
+    "tokens": 20000000000,
+    "tvl": 19007400,
+    "bera": 28032.436383104297,
+    "apr": 2.3924808886908533
+  },
+  {
+    "name": "Veda x Ether.fi weETH Vault",
+    "id": "0xff0182973d5f1e9a64392c413caaa75f364f24632a7de0fdd1a31fe30517fdd2",
+    "tokens": 4.712712901203016e+22,
+    "tvl": 129018730.55161662,
+    "bera": 373886.4509123948,
+    "apr": 4.701076399253759
+  },
+  {
+    "name": "Veda x Ether.fi weETH Vault - wETH Supply",
+    "id": "0x0484203315d701daff0d6dbdd55c49c3f220c3c7b917892bed1badb8fdc0182e",
+    "tokens": 3.7790680586878424e+22,
+    "tvl": 97778798.49849479,
+    "bera": 283355.50806287426,
+    "apr": 4.7010763992537585
+  },
+  {
+    "name": "Veda x Ether.fi eBTC Vault - LBTC Supply",
+    "id": "0xabf4b2f17bc32faf4c3295b1347f36d21ec5629128d465b5569e600bf8d46c4f",
+    "tokens": 303463850692,
+    "tvl": 291153865.06941724,
+    "bera": 843741.7173057641,
+    "apr": 4.7010763992537585
+  },
+  {
+    "name": "Veda x Ether.fi eBTC Vault - wBTC Supply",
+    "id": "0xb36f14fd392b9a1d6c3fabedb9a62a63d2067ca0ebeb63bbc2c93b11cc8eb3a2",
+    "tokens": 127319224030,
+    "tvl": 121909434.11898762,
+    "bera": 353284.25152386184,
+    "apr": 4.701076399253759
+  },
+  {
+    "name": "Supply sUSDe to Concrete x Ethena Vault",
+    "id": "0x3d7cf2bd0a04fd3c66a5fa334a399b3926efe0fc0450b8da49a5da29f2c36d7f",
+    "tokens": 4.310317381759361e+25,
+    "tvl": 49565762.22887564,
+    "bera": 143637.80241278876,
+    "apr": 4.701076399253759
+  },
+  {
+    "name": "Supply USDe to Concrete x Ethena Vault",
+    "id": "0x5043bfe3f6bab5fa4c8f19fb2f6856de2d2e717a541e0d7126b308926be04e2e",
+    "tokens": 5.584043180744001e+25,
+    "tvl": 55857803.43895906,
+    "bera": 161871.6584348913,
+    "apr": 4.7010763992537585
+  },
+  {
+    "name": "Supply WBTC to Concrete x Lombard Vault",
+    "id": "0xece925dbccbb21333dbe99679fef655ad2dc2cb185e0963711c944e302595b28",
+    "tokens": 121612783863,
+    "tvl": 116445460.41907792,
+    "bera": 337450.0720539236,
+    "apr": 4.701076399253759
+  },
+  {
+    "name": "Supply LBTC to Concrete x Lombard Vault",
+    "id": "0xa31a8bb230f77a5d286985b92fe8d0c7504a1892568d70685659f781aec78209",
+    "tokens": 241680332805,
+    "tvl": 231876590.39776972,
+    "bera": 671960.6917757173,
+    "apr": 4.7010763992537585
+  },
+  {
+    "name": "Origami USDC Boyco Vault",
+    "id": "0xa655556eb64a0fd18b9a3c80794ab370743bc431a4b2a6116fa97dcc7f741a2b",
+    "tokens": 69000000000000,
+    "tvl": 68995604.8660661,
+    "bera": 364205.8824946169,
+    "apr": 8.5631958324552
+  },
+  {
+    "name": "Infrared x Kodiak WBTC-HONEY LP",
+    "id": "0x6262ac035c2284f5b5249a690a6fd81c35f1ecef501da089f25741a4492cf5f3",
+    "tokens": 268364511120,
+    "tvl": 30139878.77606295,
+    "bera": 494974.18911813985,
+    "apr": 26.641053700971735
+  },
+  {
+    "name": "Provide beraETH-ylstETH Liquidity on Kodiak",
+    "id": "0x219169d9e78064768cddd0397c2202dc9e5c2bc0e1dbc13465363b0458d33c34",
+    "tokens": 3392620872881704400,
+    "tvl": 17511.711515278726,
+    "bera": 25.826569599804596,
+    "apr": 2.3924808886908533
+  },
+  {
+    "name": "Provide rsETH-beraETH Liquidity on Kodiak",
+    "id": "0x25f7a422282a1f26d9d96b5d1c43fa5c6f8c355b0ed7a4755ac8d04a504817f5",
+    "tokens": 802400706265221400000,
+    "tvl": 4225509.700642147,
+    "bera": 6231.8534817724185,
+    "apr": 2.3924808886908533
+  },
+  {
+    "name": "Provide rsETH-ylrsETH Liquidity on Kodiak",
+    "id": "0x460ec133419318efe4e05b4c3b6db421503fd6fcefbb20a43f50e3fc50f2ee39",
+    "tokens": 970990003182485900,
+    "tvl": 5259.654262642343,
+    "bera": 7.757027447975253,
+    "apr": 2.3924808886908533
+  },
+  {
+    "name": "Provide WBTC-FBTC Liquidity on Kodiak",
+    "id": "0xd6e9ff1fa0c9c6bb25cafcb76c61c0d398a479ba073509e10209271f40a01712",
+    "tokens": 6726092,
+    "tvl": 12864.189373770887,
+    "bera": 37.279440653773136,
+    "apr": 4.701076399253759
+  },
+  {
+    "name": "Provide pumpBTC.bera-FBTC Liquidity on Kodiak",
+    "id": "0xab27dc8061f66791bb94a536546b08ba15e06344dabad2cc6267cf44f0070574",
+    "tokens": 917694,
+    "tvl": 1742.464832573084,
+    "bera": 2.569816732898843,
+    "apr": 2.3924808886908533
+  },
+  {
+    "name": "Provide FBTC-SolvBTC Liquidity on Kodiak",
+    "id": "0xc5165360e2e8b195cb55e21cf259ce6a5ee996b055057d8705851d9b01fc8620",
+    "tokens": 90661462903,
+    "tvl": 1740.08188370335,
+    "bera": 2.566302319428562,
+    "apr": 2.3924808886908533
+  },
+  {
+    "name": "Provide uniBTC-ylBTCLST Liquidity on Kodiak",
+    "id": "0x21c6a0baa6f41b060937be5a4f1be096b63f426c50f763b4dabd1af46803fa2f",
+    "tokens": 4906773050,
+    "tvl": 9403099.39207282,
+    "bera": 13867.85070616118,
+    "apr": 2.3924808886908533
+  },
+  {
+    "name": "Provide WBTC-stBTC Liquidity on Kodiak",
+    "id": "0x9b60d30f266858fa671bf268796aa503700310e31a8f46ebaa8f8281fbad89aa",
+    "tokens": 689674889186,
+    "tvl": 13210.151663214894,
+    "bera": 38.28201300893979,
+    "apr": 4.701076399253759
+  },
+  {
+    "name": "Provide WBTC-waBTC Liquidity on Kodiak",
+    "id": "0x49104b3cadbb31470e5b949c6892a33954ee9ce35041df4a04a88eb694b645c0",
+    "tokens": 100350333381571,
+    "tvl": 1930457.5157611638,
+    "bera": 5594.318794791893,
+    "apr": 4.701076399253759
+  },
+  {
+    "name": "Provide WBTC-pumpBTC.bera Liquidity on Kodiak",
+    "id": "0xa74b61544834483b093531cff533d01788a5dea12d8a83902646111025303bfb",
+    "tokens": 1367904290,
+    "tvl": 2602051.79140447,
+    "bera": 7540.547835333402,
+    "apr": 4.701076399253759
+  },
+  {
+    "name": "Provide pumpBTC.bera-ylBTCLST Liquidity on Kodiak",
+    "id": "0x2fa37184f43783f5d6b23548c4a7a21bb86cd2f314bba9d5bb7d2415d61d11c8",
+    "tokens": 9891748362,
+    "tvl": 18875708.944296554,
+    "bera": 27838.216177224967,
+    "apr": 2.3924808886908533
+  },
+  {
+    "name": "Provide pumpBTC.bera-ylpumpBTC Liquidity on Kodiak",
+    "id": "0xaa636d73f39ea0de0e04ed9270eac5d943707e7f8fb9c3480c0d80eb015ccfc8",
+    "tokens": 1230241142,
+    "tvl": 2323984.1988441627,
+    "bera": 3427.4513720676473,
+    "apr": 2.3924808886908533
+  },
+  {
+    "name": "Lend USDC on Dahlia (sUSDe&#x2F;USDC)",
+    "id": "0x7e804adb4c426b81fbe1f005f92d8dee99f98b0502c3946ac5ad436b453c6435",
+    "tokens": 654168921637,
+    "tvl": 654127.2526511161,
+    "bera": 3836.5888793132926,
+    "apr": 9.514662036061333
+  },
+  {
+    "name": "Lend wETH on Dahlia (STONE&#x2F;wETH)",
+    "id": "0x4dd921e829db80e73c56d888eeaf46a7934a3c4a2f7f78231dd4502f8eaa2558",
+    "tokens": 413614754196053700000,
+    "tvl": 1070177.9665905994,
+    "bera": 6276.810618831509,
+    "apr": 9.514662036061335
+  },
+  {
+    "name": "Provide SolvBTC-SolvBTC.BBN Liquidity on Kodiak",
+    "id": "0x378d4d32d89450978d01cfdf1ff1907d4419aa186c48abb94e612b76d75f3fae",
+    "tokens": 98001608839551810000,
+    "tvl": 18964433.091039967,
+    "bera": 27969.068055926422,
+    "apr": 2.3924808886908533
+  },
+  {
+    "name": "Provide WBTC-SolvBTC Liquidity on Kodiak",
+    "id": "0x290aad1fabd8d2557d28a3854a2433ddc11a35f0d12936dd99102067ac515d07",
+    "tokens": 108132417985527,
+    "tvl": 2078445.3980009498,
+    "bera": 6023.176401994428,
+    "apr": 4.7010763992537585
+  },
+  {
+    "name": "Supply rsETH on Dolomite",
+    "id": "0x415f935bbb9bf1bdc1f49f2ca763d5b2406efbf9cc949836880dd5bbd054db95",
+    "tokens": 831226446191617500000,
+    "tvl": 2221798.375075871,
+    "bera": 2393.5324933728616,
+    "apr": 1.7476120443322525
+  },
+  {
+    "name": "Supply rswETH on Dolomite",
+    "id": "0xc90525132d909f992363102ebd6298d95b1f312acdb9421fd1f7ac0c0dd78d3f",
+    "tokens": 1.1288115522395389e+21,
+    "tvl": 3135851.545272639,
+    "bera": 3378.237490945707,
+    "apr": 5.242836132996756
+  },
+  {
+    "name": "Infrared x Kodiak WETH-STONE LP",
+    "id": "0x7ecf55915abe3c24dc5d8365a8edabc8833f4efb8e7c027429c9528aed91ecb7",
+    "tokens": 4.783043886856873e+22,
+    "tvl": 255594758.46940866,
+    "bera": 740694.1357069531,
+    "apr": 4.7010763992537585
+  },
+  {
+    "name": "Supply sUSDa on Dolomite",
+    "id": "0x2dd74f8f8a8d7f27b2a82a6edce57b201f9b4a3c4780934caf99363115e48be6",
+    "tokens": 1.999997379173583e+25,
+    "tvl": 20299973.39861187,
+    "bera": 21869.061787626426,
+    "apr": 5.242836132996756
+  },
+  {
+    "name": "Infrared x Kodiak beraETH-STONE LP",
+    "id": "0x1997c604de34a71974228bca4a66f601427c48960b6e59ff7ebc8e34f43f3ecf",
+    "tokens": 1.4877418322423286e+22,
+    "tvl": 79501468.78679316,
+    "bera": 117250.11659296544,
+    "apr": 2.3924808886908533
+  },
+  {
+    "name": "Supply USDa on Dolomite",
+    "id": "0x86a5077c6a9190cde78ec75b8888c46ed0a3d1289054127a955a2af544633cf3",
+    "tokens": 2.790978424981599e+24,
+    "tvl": 2786060.7209967813,
+    "bera": 3001.4095513900525,
+    "apr": 5.242836132996757
+  },
+  {
+    "name": "Supply stBTC on Dolomite",
+    "id": "0xc6887dddd833a3d585c7941cd31b0f8ff3ec5903d49cd5e7ac450b46532d3e79",
+    "tokens": 250000000000000000000,
+    "tvl": 23946305.95210147,
+    "bera": 25797.237965234155,
+    "apr": 5.242836132996756
+  },
+  {
+    "name": "Supply ylpumpBTC on Dolomite",
+    "id": "0x6306bfce6bff30ec4efcea193253c43e057f1474007d0d2a5a0c2938bd6a9b81",
+    "tokens": 99986203,
+    "tvl": 94633.94155341,
+    "bera": 101.94868113372354,
+    "apr": 5.242836132996757
+  },
+  {
+    "name": "Supply ylBTCLST on Dolomite",
+    "id": "0x0194c329e2b9712802c37d3f17502bcefce2e128933f24f4fe847dfc7e5e8965",
+    "tokens": 1444218,
+    "tvl": 1394.81130222,
+    "bera": 1.5026233754776595,
+    "apr": 5.242836132996756
+  },
+  {
+    "name": "Infrared x Kodiak WETH-beraETH LP",
+    "id": "0xaf2a845c9d6007128b7aec375a4fcdee2b12bbaeb78caf928d3bd08e104417d6",
+    "tokens": 9.316298788736169e+21,
+    "tvl": 24104792.18339079,
+    "bera": 69853.85114933521,
+    "apr": 4.701076399253758
+  },
+  {
+    "name": "Supply ylstETH on Dolomite",
+    "id": "0x5bac1cacdd36b3d95a7f9880a264f8481ab56d3d1a53993de084c6fa5febcc15",
+    "tokens": 1293048727876865300,
+    "tvl": 3325.182923907797,
+    "bera": 3.582203256634439,
+    "apr": 5.242836132996756
+  },
+  {
+    "name": "Supply beraETH on Dolomite",
+    "id": "0x258ac521d801d5112a484ad1b82e6fd2efc24aba29e5cd3d56db83f4a173dc90",
+    "tokens": 336658628463398750000,
+    "tvl": 871063.3331841084,
+    "bera": 938.3922569889526,
+    "apr": 5.242836132996756
+  },
+  {
+    "name": "Supply STONE on Dolomite",
+    "id": "0xb27f671bc0dd8773a25136253acd72150dd59e50e44dc8439e9dc5c84c2b19f6",
+    "tokens": 787605529200183100000,
+    "tvl": 2168175.633169308,
+    "bera": 2335.764976492432,
+    "apr": 1.7476120443322525
+  },
+  {
+    "name": "Supply pumpBTC on Dolomite",
+    "id": "0xff917303af9337534eece4b88948d609980b66ca0b41875da782aec4858cade5",
+    "tokens": 258249797,
+    "tvl": 243535.87201919794,
+    "bera": 262.3600005828339,
+    "apr": 5.242836132996757
+  },
+  {
+    "name": "Supply solvBTC.bbn on Dolomite",
+    "id": "0x2a3a73ba927ec6bbf0e2e12e21a32e274a295389ce9d6ae2b32435d12c597c2c",
+    "tokens": 395867654286333640000,
+    "tvl": 38426243.06995192,
+    "bera": 41396.403210094555,
+    "apr": 5.242836132996756
+  },
+  {
+    "name": "Supply solvBTC on Dolomite",
+    "id": "0xb1d5ccc4388fe639f8d949061bc2de95ecb1efb11c5ceb93bdb71caab58c8aa3",
+    "tokens": 301766442016311100000,
+    "tvl": 29097959.639254693,
+    "bera": 31347.08921777379,
+    "apr": 1.7476120443322523
+  },
+  {
+    "name": "Infrared x Kodiak MIM-HONEY LP",
+    "id": "0x9a117f13c7d5d2b4b18e444f72e6e77c010a1fd90cf21135be75669d66ad9428",
+    "tokens": 1963100220964862000,
+    "tvl": 3922147.2098638243,
+    "bera": 11366.083777000564,
+    "apr": 4.7010763992537585
+  },
+  {
+    "name": "Suppy uniBTC on Dolomite",
+    "id": "0xd10bdc88272e0958baa62a4ae2bfce1d8feed639a93e03c0aa5cec7adfbdf2c3",
+    "tokens": 6256105300,
+    "tvl": 5945614.793961,
+    "bera": 6405.181659176465,
+    "apr": 5.242836132996756
+  },
+  {
+    "name": "Supply SBTC on Dolomite",
+    "id": "0x42a09eccabf1080c40a24522e9e8adbee5a0ad907188c9b6e50ba26ba332eac3",
+    "tokens": 25091185181255647000,
+    "tvl": 2366160.103162548,
+    "bera": 2549.052675064919,
+    "apr": 1.7476120443322523
+  },
+  {
+    "name": "Supply sUSDe on Dolomite",
+    "id": "0x092c0c4d8d124fc29364e8cd8417198c4bbe335e3f6c4b1f79215a3457b4831a",
+    "tokens": 2.6346235247410192e+22,
+    "tvl": 30296.405490357018,
+    "bera": 32.63816905577365,
+    "apr": 1.7476120443322523
+  },
+  {
+    "name": "Supply NECT on Dolomite",
+    "id": "0xbe5cd829fcb3cdfe8224ad72fc3379198d38da26131c5b7ab6664c8f56a9730d",
+    "tokens": 99529093277,
+    "tvl": 99522.75351330041,
+    "bera": 107.21537428250575,
+    "apr": 1.7476120443322523
+  },
+  {
+    "name": "Provide WBTC-SBTC Liquidity on Kodiak",
+    "id": "0x289dc2a22ebb4ef7404de9293b6718d9f81f0843e1af4cf9a9c51d2e757348d6",
+    "tokens": 203623829759832,
+    "tvl": 3870493.059923309,
+    "bera": 11216.393986118383,
+    "apr": 4.701076399253759
+  },
+  {
+    "name": "Provide WBTC-uniBTC Liquidity on Kodiak",
+    "id": "0x568f3bb6ba4c6afe37899fda35bc315ae8167274685ea295e03cf20d471afd8b",
+    "tokens": 467493576,
+    "tvl": 893080.2373713393,
+    "bera": 2588.0784821176117,
+    "apr": 4.7010763992537585
+  },
+  {
+    "name": "Provide beraETH-RSWETH Liquidity on Kodiak",
+    "id": "0x3ef317447bd10825f0a053565f8474a460cfb22cda414ea30b671e304f0691b6",
+    "tokens": 33534457692741456000,
+    "tvl": 183176.0631064094,
+    "bera": 270.15116933078275,
+    "apr": 2.3924808886908533
+  },
+  {
+    "name": "Beraborrow uniBTC Boyco",
+    "id": "0xb32d047eb63b5c2af537c2e4df6a09c40a50b75aefd83a928600241a4666b087",
+    "tokens": 55103798448,
+    "tvl": 52368996.93102576,
+    "bera": 77234.68622304806,
+    "apr": 2.3924808886908533
+  },
+  {
+    "name": "Supply USDe on Dolomite",
+    "id": "0xa588ad19850cf2a111c3c727033da8e557abc94de70fce2d2b2f2f78140f15e5",
+    "tokens": 7.514794430351582e+23,
+    "tvl": 751713.2238917168,
+    "bera": 809.8169695625288,
+    "apr": 1.7476120443322523
+  },
+  {
+    "name": "Provide rUSD-HONEY Liquidity on Kodiak",
+    "id": "0xcdb30c06ea11f3f5408bce5eefdb392dfe0008ef81af3a486bcfed891f9cc112",
+    "tokens": 8499998980708509000,
+    "tvl": 17077352.886094358,
+    "bera": 49488.86750211755,
+    "apr": 4.701076399253759
+  },
+  {
+    "name": "Provide USDe-USDa Liquidity on Kodiak",
+    "id": "0xab689b5eac7541b8cc774f0ca3705a91b21660e8221fc7bd8e93c391fb5d690d",
+    "tokens": 1.9269534646680158e+21,
+    "tvl": 3848.2855463055917,
+    "bera": 5.675516891359748,
+    "apr": 2.3924808886908533
+  },
+  {
+    "name": "Provide sUSDa-USDa Liquidity on Kodiak",
+    "id": "0xd70673b98af7096f575717d70fbf2fa935dd719926b55c0e011480678cdac563",
+    "tokens": 9.749220957188404e+24,
+    "tvl": 19585829.688439447,
+    "bera": 28885.51431292519,
+    "apr": 2.3924808886908533
+  },
+  {
+    "name": "Beraborrow beraETH Boyco",
+    "id": "0xd77d3e3e075394a6c94a8c83dab114bb7266b96c5234e4a98476f41339029c30",
+    "tokens": 86387925793277580000,
+    "tvl": 223518.27110985457,
+    "bera": 329.6485429542419,
+    "apr": 2.3924808886908533
+  },
+  {
+    "name": "Beraborrow ylrsETH Boyco",
+    "id": "0x6b3dfac03cea102e59d2d5711088f3001782e07239dcc90f274dd9762220c49a",
+    "tokens": 2634491419979631000,
+    "tvl": 7237.501173882242,
+    "bera": 10.673989668734105,
+    "apr": 2.3924808886908533
+  },
+  {
+    "name": "Beraborrow RSETH Boyco",
+    "id": "0xfef8ead03d79cf7cbe6f73c8d1136f8c84f6cf6ed9bc208719e7fcee807cb336",
+    "tokens": 549423967981443600000,
+    "tvl": 1468564.053612301,
+    "bera": 2165.8632115597393,
+    "apr": 2.3924808886908533
+  },
+  {
+    "name": "Provide USDa-HONEY Liquidity on Kodiak",
+    "id": "0xfa4917a871f9cf06d3d00be6678993888b3aac41c3da21edf32c3c9cf3978d70",
+    "tokens": 577307233695879300,
+    "tvl": 1152811.5630813667,
+    "bera": 3340.7600745135505,
+    "apr": 4.7010763992537585
+  },
+  {
+    "name": "Beraborrow stBTC Boyco",
+    "id": "0x84790e638ddd7a59e64b8c239e96e29c2c6c155a9882a0c834b9ced016b7c999",
+    "tokens": 178875284219183330,
+    "tvl": 17133.609132726688,
+    "bera": 25.268937783501986,
+    "apr": 2.3924808886908533
+  },
+  {
+    "name": "Beraborrow ylpumpBTC Boyco",
+    "id": "0x897eec875e51d6c8b5339d6a9984a00acb0aa86f9d4ab4eddbb4a791bb0a88e9",
+    "tokens": 751565,
+    "tvl": 711.33372555,
+    "bera": 1.0490870612833396,
+    "apr": 2.3924808886908533
+  },
+  {
+    "name": "Beraborrow ylBTCLST Boyco",
+    "id": "0x4fa4a76aa8b93ccdddba0c20c336056803b7410fb375c9c9541e9c54fbfb2f9a",
+    "tokens": 9513474,
+    "tvl": 9188.01805446,
+    "bera": 13.55064509603963,
+    "apr": 2.3924808886908533
+  },
+  {
+    "name": "Supply wBTC on Dolomite x Infrared",
+    "id": "0xa6905c68ad66ea9ce966aa1662e1417df08be333ab8ec04507e0f0301d3a78e9",
+    "tokens": 20098295660,
+    "tvl": 19244319.695895847,
+    "bera": 112871.83439611702,
+    "apr": 9.514662036061333
+  },
+  {
+    "name": "Beraborrow ylstETH Boyco",
+    "id": "0xc182b0267a6ca015c2d2a144ca19e1f6b36479675754914002e0613320ed8d9a",
+    "tokens": 1.4991968606506312e+21,
+    "tvl": 3855310.084715058,
+    "bera": 5685.876799926097,
+    "apr": 2.3924808886908533
+  },
+  {
+    "name": "Provide USDe-NECT Liquidity on Kodiak",
+    "id": "0x2240151f263be555a4ef61476a5c111373e0efe8cd539f179b4b5850977e9d4e",
+    "tokens": 1.1360220098014194e+23,
+    "tvl": 113637.5419599894,
+    "bera": 167.59457715025454,
+    "apr": 2.3924808886908533
+  },
+  {
+    "name": "Supply wETH on Dolomite x Infrared",
+    "id": "0x0a7565b14941c6a3dde083fb7a857e27e12c55fa34f709c37586ec585dbe7f3f",
+    "tokens": 4.499021592920994e+22,
+    "tvl": 116406722.22435257,
+    "bera": 682749.0127543466,
+    "apr": 9.514662036061333
+  },
+  {
+    "name": "Kodiak x Beraborrow WBTC-WETH to mint NECT, Boyco",
+    "id": "0x568d2509ec17c27426a9d55e58673160c937aeaedc0a3fcc7c63c5b7df495ec7",
+    "tokens": 2519008846078341,
+    "tvl": 10228035.543310482,
+    "bera": 167970.6025673315,
+    "apr": 26.641053700971735
+  },
+  {
+    "name": "Kodiak x Beraborrow WETH-HONEY to mint NECT, Boyco",
+    "id": "0xf8663b3c0f78b4efae0422b163e86e79afa1ce90778885d93d53c9d4f6d5c3d8",
+    "tokens": 758228040488888,
+    "tvl": 194760.07061483746,
+    "bera": 3198.460376746191,
+    "apr": 26.641053700971735
+  },
+  {
+    "name": "Supply USDT on Dolomite x Infrared",
+    "id": "0x9c7bd5b59ebcb9a9e6787b9b174a98a69e27fa5a4fe98270b461a1b9b1b1aa3e",
+    "tokens": 3083400925057,
+    "tvl": 3084526.5326692187,
+    "bera": 18091.373116199004,
+    "apr": 9.514662036061335
+  },
+  {
+    "name": "Kodiak x Beraborrow WBTC-HONEY to mint NECT, Boyco",
+    "id": "0xcdd60ed30d20f9edc3fac624bb623db32103658b6da678949ef53df16139b488",
+    "tokens": 4532653898,
+    "tvl": 509060.0036846228,
+    "bera": 8360.072195658231,
+    "apr": 26.64105370097174
+  },
+  {
+    "name": "Supply USDC on Dolomite",
+    "id": "0x1e0a98a276ba873cfa427e247c7d0e438f604a54fcb36481063e1220af021faf",
+    "tokens": 29283486404483,
+    "tvl": 29281621.116877213,
+    "bera": 171742.6410380652,
+    "apr": 9.514662036061337
+  },
+  {
+    "name": "Supply HONEY on Dolomite x Infrared",
+    "id": "0x9778047cb8f3740866882a97a186dff42743bebb3ad8010edbf637ab0e37751f",
+    "tokens": 11140052952681,
+    "tvl": 11139343.358119294,
+    "bera": 65334.505904475795,
+    "apr": 9.514662036061335
+  },
+  {
+    "name": "Beraborrow WETH Boyco",
+    "id": "0xb9f307d83c78d09a134aac7713821aab8e1da2404b895db66f0975135dd5006e",
+    "tokens": 217760590817906100000,
+    "tvl": 563429.0941531837,
+    "bera": 830.9547985647276,
+    "apr": 2.3924808886908533
+  },
+  {
+    "name": "Provide NECT-HONEY Liquidity on Kodiak",
+    "id": "0x62bb6fb784e059f338340a9724b35ef2ef8fde5e65613e9fcaacd097d81dc67e",
+    "tokens": 7271900813646,
+    "tvl": 7271437.611065855,
+    "bera": 21072.072169743176,
+    "apr": 4.7010763992537585
+  },
+  {
+    "name": "Beraborrow SBTC Boyco",
+    "id": "0xe92ebafbee7aa7a636ff62e04aa2ab9353f60ef72dcdcfdfcf48b67a7ad8ffc7",
+    "tokens": 91941311706835220000,
+    "tvl": 8670290.463427937,
+    "bera": 12787.091650571856,
+    "apr": 2.3924808886908533
+  },
+  {
+    "name": "Beraborrow STONE Boyco",
+    "id": "0x88ee202388086447b8dc8403c5aa2cfbcdb52e749fd16af5c6a3c7bb614b17c9",
+    "tokens": 991187054924235700000,
+    "tvl": 2728609.1078892807,
+    "bera": 4024.1990609586387,
+    "apr": 2.3924808886908533
+  },
+  {
+    "name": "Beraborrow pumpBTC Boyco",
+    "id": "0xfe95d44ab171140b66fb5180e9de765578d9d2bfbdbb66307abb86ba05a59e93",
+    "tokens": 218040970501,
+    "tvl": 205617965.64306012,
+    "bera": 303248.86839401536,
+    "apr": 2.3924808886908533
+  },
+  {
+    "name": "Beraborrow SolvBTC Boyco",
+    "id": "0x28b337bd45eda5e2fc596bfe22320bef0af9da85d4c770d0fd03ddf72428c00a",
+    "tokens": 400067613565820670000,
+    "tvl": 38576692.606137976,
+    "bera": 56893.56152614943,
+    "apr": 2.3924808886908533
+  },
+  {
+    "name": "Restake pumpBTC on Satlayer",
+    "id": "0x036d9e250c6dafef1dd361199181548f9990a00452abf5231cebe7a15f9e19bd",
+    "tokens": 124693427,
+    "tvl": 117588.95004865076,
+    "bera": 126.67799921018157,
+    "apr": 1.7476120443322523
+  },
+  {
+    "name": "Restake SBTC on SatLayer",
+    "id": "0x7ccce28638cbb503d17e8d9290a97f18731199655ccde282da7b464f21361b79",
+    "tokens": 25003119340000000000,
+    "tvl": 2357855.2790370528,
+    "bera": 2540.1059287628655,
+    "apr": 1.7476120443322525
+  },
+  {
+    "name": "Restake LBTC on SatLayer",
+    "id": "0xde894ab596c084e65d0123ab6fa66f95b0571091cd8ec7efbeabe4942e7c40cd",
+    "tokens": 120668391975,
+    "tvl": 115773488.78661314,
+    "bera": 124722.21169593497,
+    "apr": 1.7476120443322523
+  },
+  {
+    "name": "D2 Finance HyperBERA.USDC, Boyco",
+    "id": "0xb7b78119806fcb9bbc499131da16b52ce52cf4a1ceabfc59e4f2f6e6ef7046c0",
+    "tokens": 10000000000000,
+    "tvl": 9999363.02406755,
+    "bera": 58648.29025678211,
+    "apr": 28.543986108184
+  },
+  {
+    "name": "Restake solvBTC.bbn on SatLayer",
+    "id": "0x7dadff589e53d9813969d0be6de99c033d140ec1d304e57a754797736656dcd5",
+    "tokens": 1.4928247993844055e+21,
+    "tvl": 144906127.03736055,
+    "bera": 156106.66001179977,
+    "apr": 1.7476120443322525
+  },
+  {
+    "name": "Infrared x Kodiak sUSDe-HONEY LP, Boyco",
+    "id": "0xad9ee12ea8b3dccf85934c2918bd4ad38ccf7bc8b43d5fcb6f298858aa4c9ca4",
+    "tokens": 6739384117017539000,
+    "tvl": 14463064.192079036,
+    "bera": 41912.85805537493,
+    "apr": 4.7010763992537585
+  },
+  {
+    "name": "Restake waBTC on SatLayer",
+    "id": "0x2dcd8ec59fe12b4cb802f5a26445f9684635c52139560f169a7c4d67da186c18",
+    "tokens": 150003585185434500000,
+    "tvl": 14362993.74669985,
+    "bera": 15473.182724631048,
+    "apr": 1.7476120443322523
+  },
+  {
+    "name": "Restake uniBTC on SatLayer",
+    "id": "0xdd3f0e11d59726f2e63fc1b180abc94034dd3e0f4018b51371b73348d82b3769",
+    "tokens": 405706532,
+    "tvl": 385571.31681684,
+    "bera": 415.3740886961237,
+    "apr": 1.7476120443322523
+  },
+  {
+    "name": "D2 Finance dgnBeraland, Boyco",
+    "id": "0x0964848864e96952ee2454ce58fc93b867f9b2d9a6b44216eec8b08726813d1b",
+    "tokens": 690000000000,
+    "tvl": 689956.048660661,
+    "bera": 4046.7320277179656,
+    "apr": 28.543986108184
+  },
+  {
+    "name": "Infrared x Kodiak USDe-HONEY LP",
+    "id": "0x5f7935e257b94aee6caf9bbe917d4cfad75e8bc3b231806769ca0935af8371e8",
+    "tokens": 10139061902251733000,
+    "tvl": 20289668.927776817,
+    "bera": 58797.914637355825,
+    "apr": 4.701076399253758
+  },
+  {
+    "name": "Infrared x Kodiak USDT0-HONEY LP, Boyco",
+    "id": "0xf8f745f188ddb10c16724faee95583521191c3c69e15490fa53c1136b73c17d7",
+    "tokens": 538141421979,
+    "tvl": 1430588.7147773062,
+    "bera": 7551.623416647003,
+    "apr": 8.5631958324552
+  },
+  {
+    "name": "Infrared x Kodiak USDC-HONEY LP",
+    "id": "0x72bec627884d7bdf538f174bedd551e9eccf3995adc880f40972e2bab87df3b9",
+    "tokens": 7617633601557,
+    "tvl": 7617148.376630359,
+    "bera": 40208.50678805383,
+    "apr": 8.5631958324552
+  },
+  {
+    "name": "D2 Finance Kodiak++, Boyco",
+    "id": "0x027987432679079fbbc990691d14dabe7f7780f51df6a1a53e7bd875b1f9581a",
+    "tokens": 256443098540,
+    "tvl": 256426.76373181873,
+    "bera": 1503.9949277522496,
+    "apr": 9.514662036061333
+  },
+  {
+    "name": "Infrared x Kodiak, WBTC-WETH LP",
+    "id": "0xab37ea8895eed81c4aa76d5dba64441756904b15e78f6ffa5183b0fc1563c1c5",
+    "tokens": 20975416740000000,
+    "tvl": 85167349.96245328,
+    "bera": 1398666.5407720916,
+    "apr": 26.641053700971735
+  },
+  {
+    "name": "Infrared x Kodiak WETH-HONEY LP",
+    "id": "0x17ffd16948c053cc184c005477548e559566879a0e2847e87ebd1111c602535c",
+    "tokens": 155224850414860540,
+    "tvl": 39871385.93355527,
+    "bera": 654790.5208282286,
+    "apr": 26.64105370097174
+  },
+  {
+    "name": "THJ&#x2F;Set and Forgetti - USDC Vault, Henlo Boyco",
+    "id": "0xaa449e0679bd82798c7896c6a031f2da55299e64c0b4bddd57ad440921c04628",
+    "tokens": 42000000000000,
+    "tvl": 41997324.70108371,
+    "bera": 221690.5371706364,
+    "apr": 8.5631958324552
+  },
+  {
+    "name": "Supply USDC into YieldFi for 90 days",
+    "id": "0x8ad5d3b1e7da39ce148c0e1809d4e3814f97a285e88098e1973e9df19eedd009",
+    "tokens": 315353591,
+    "tvl": 315.323317055264,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "ETH MAX Vault - YieldNest",
+    "id": "0xa6ceb12b302a99a13fec0f52b804485244e9b859",
+    "tokens": 5760265231217735000,
+    "tvl": 14903.987030513767,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Deposit USDC into SuperUSDC for 10 weeks",
+    "id": "0x18493e771a4fd1cc17f01ec9f12cc3058bd4e30fda4affdd3e2c11ec6a557c8c",
+    "tokens": 12021193643,
+    "tvl": 12020.039608410272,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Supply USDC on Panoptic",
+    "id": "0xdd6e66853ef02d706c89c12d7cdf9dad6ab7e65e",
+    "tokens": 998004158,
+    "tvl": 997.940587537087,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Deposit PIGGY into The Piggy Bank on Base for 10 weeks",
+    "id": "0x1b467d65fde4ec8988e8df1706d0f9e028db8d41e14d10fbbd7b194e5744ac59",
+    "tokens": 9.763328805224146e+27,
+    "tvl": 127020.90775596612,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Supply wUSDL into csUSDL Vault",
+    "id": "0x2407ccfff27a6c40f8c8926959ae56ca8d1c3edc",
+    "tokens": 15000483022352243000,
+    "tvl": 0,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Deposit USDC into SuperUSDC for 3 months",
+    "id": "0xf98c40038e95042341a5e0f0d9fa4cc7a32a839f8645ebb91dd770f8578e2280",
+    "tokens": 230641379017,
+    "tvl": 230626.68771625395,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Lend BTCN onto ZeroLend on Corn",
+    "id": "0x91e59126365118a2bfe13560a3a575c6d42bf59f",
+    "tokens": 3798058678485431,
+    "tvl": 365.878386674537,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Lend USDC on Euler Prime",
+    "id": "0xdbf074ef1689a3349fd3ac2316655069c84450c2",
+    "tokens": 3284156138,
+    "tvl": 3283.946945158169,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Supply USDC into Euler Yield Market",
+    "id": "0xa2bb5cd636a098783f629d1f1431934a45eee7fa",
+    "tokens": 739669138382,
+    "tvl": 739622.0232380875,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Supply ETH to BakerFi on Morpho",
+    "id": "0x9db6dbdcf6b3f158f8b02d762f99f8ce7663e1aa",
+    "tokens": 0,
+    "tvl": 0,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Supply ETH to BakerFi",
+    "id": "0xb98840b22618e77bbd0403c81365eefc7d449559",
+    "tokens": 0,
+    "tvl": 0,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Supply WBTC into Dolomite",
+    "id": "0xa85873e88e2235346cfe4884bdf22c01dc1840c9",
+    "tokens": 0,
+    "tvl": 0,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Lend USDT on Dolomite",
+    "id": "0xd357d01ed7ebdc680591600b6a483264cec2e94c",
+    "tokens": 4980846349,
+    "tvl": 4968.588486135111,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Lend USDC on Dolomite",
+    "id": "0x13c798c93e9c6293dd3c40d1f5c9fdcd4f92aa14",
+    "tokens": 9719247050,
+    "tvl": 9718.3140022832,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Supply sUSDe into ZAI",
+    "id": "0xd215425f5a1c917973e7c34799942becabce66eed65310353e48d5342356e7f7",
+    "tokens": 0,
+    "tvl": 0,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Deposit hETH into Spectra",
+    "id": "0xea47034ba4ba711a3c9b3d87c84149e7666040e2a31389e8594778feddb28ce2",
+    "tokens": 49931425814663660,
+    "tvl": 138.65607428751397,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Lend WBTC on Gearbox",
+    "id": "0x6402d18a46e56f37edbbe0f6a0aa9e83ee2d34a2",
+    "tokens": 3755955,
+    "tvl": 3596.364587632824,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Supply USDC into ZeroLend",
+    "id": "0x887d57a509070a0843c6418eb5cffc090dcbbe95",
+    "tokens": 87592372398,
+    "tvl": 87586.79297469163,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Lend USDC on Fluid",
+    "id": "0xdc4e33582784f8b577f4e84c47af9b31e583e6db",
+    "tokens": 3049405357,
+    "tvl": 3049.211117217931,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Lend USDC on Notional",
+    "id": "0xaba9d0d3816e6069d14484149fd50780821ddc0f",
+    "tokens": 0,
+    "tvl": 0,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Swap USDC to stkGHO for 1 mo",
+    "id": "0x83c459782b2ff36629401b1a592354fc085f29ae00cf97b803f73cac464d389b",
+    "tokens": 2750731751586,
+    "tvl": 2750556.5365937618,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Supply WETH to Morpho Gauntlet Core",
+    "id": "0xded00ff949d611b9ee91ab1a086e81ecfc23bd76",
+    "tokens": 382112718706563400,
+    "tvl": 988.6702738847736,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Supply WETH into Morpho Re7",
+    "id": "0x1baeb82f78f55c793296e7153f2b45396ceaeb4b",
+    "tokens": 3286429812669928400,
+    "tvl": 8503.238191060122,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Supply USDT into Fluid",
+    "id": "0x0623bd8ec9e040b7bd76dbb8b2fe86d312c28cd8",
+    "tokens": 21946439328,
+    "tvl": 21892.42914081379,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Supply DAI into AAVE",
+    "id": "0xe15b622502aaef45ee31bcc23c7afa8a0d6f3192",
+    "tokens": 4.3348292279185415e+21,
+    "tvl": 4334.309339991734,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Supply ARB into AAVE",
+    "id": "0xb97e63afe33f8907302c37069a044edfaa64a543",
+    "tokens": 7.482794402463157e+22,
+    "tvl": 35893.69267356735,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Supply USDT into AAVE",
+    "id": "0x578d5c8e4822b3b1d0a6241cb09d0be6695b1809",
+    "tokens": 2660882924,
+    "tvl": 2654.334491124036,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Supply wstETH into AAVE",
+    "id": "0xe382e7a75d9246c9c8196d00ef6265c50cae10fa",
+    "tokens": 200000000236950,
+    "tvl": 0.6342660007514467,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Supply WETH into AAVE",
+    "id": "0x4a8be66cb0fea21db529108c17d1ec32d7cd3e49",
+    "tokens": 13658091143883289000,
+    "tvl": 35338.65283959822,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Supply stETH Into Instadapp",
+    "id": "0xdbf9e533bfbd2aa2a9e6b933dd8657f9de90edb0",
+    "tokens": 101520657270261140000,
+    "tvl": 261068.85896964814,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Supply WETH into Morpho Gauntlet Core",
+    "id": "0xf16cc52c836e6035638843614bc4956d564c5fe0",
+    "tokens": 2750039822661103,
+    "tvl": 7.1153942058450665,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Supply USDC into Morpho Steakhouse",
+    "id": "0x2785a8814434a589ce47949f4c4d3beea13760af",
+    "tokens": 0,
+    "tvl": 0,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Supply WETH Into Morpho Gauntlet Prime",
+    "id": "0xa167f33e07c7d5d0dbf546adc40d647b6f4af1d2",
+    "tokens": 10980510038469655000,
+    "tvl": 28410.736768657654,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Supply sDAI on Sky",
+    "id": "0x78c4fe43b09402a28cb1aa45c2d041f2474018fd",
+    "tokens": 10105467405060790000,
+    "tvl": 10.10425542871238,
+    "bera": 0,
+    "apr": 0
+  },
+  {
+    "name": "Supply USDC into AAVE",
+    "id": "0x2120adcdcf8e0ed9d6dd3df683f076402b79e3bd",
+    "tokens": 35463383372,
+    "tvl": 35461.124439830885,
+    "bera": 0,
+    "apr": 0
+  }
+]
