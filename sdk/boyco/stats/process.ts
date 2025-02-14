@@ -45,7 +45,6 @@ function processData() {
         const duration = Number(marketData.duration.split(' ')[0]);
         const points = marketData.multiplier * duration * usdValue;
         
-
         totalTvl += usdValue;
         totalPoints += points;
 
@@ -93,20 +92,32 @@ function processData() {
         }
         const pointsPercentage = entry.points / pointsPool;
         const beraAllocation = pointsPercentage * beraPool;
+        if (entry.marketId === '0xabf4b2f17bc32faf4c3295b1347f36d21ec5629128d465b5569e600bf8d46c4f') {
+            console.log({
+                name: entry.name,
+                bucket: entry.bucket,
+                points: entry.points,
+                multiplier: entry.multiplier,
+                pointsPool,
+                pointsPercentage,
+                beraPool,
+                beraAllocation,
+            })
+        }
         entry.amount = beraAllocation;
         entry.weight = pointsPercentage * 100;
     }
 
-    console.log({
-        totalTvl: totalTvl.toLocaleString(),
-        totalPoints: totalPoints.toLocaleString(),
-        bucketOneTvl: bucketOneTvl.toLocaleString(),
-        bucketOnePoints: bucketOnePoints.toLocaleString(),
-        bucketTwoTvl: bucketTwoTvl.toLocaleString(),
-        bucketTwoPoints: bucketTwoPoints.toLocaleString(),
-        marketAllocations,
-        emitted: Object.values(marketAllocations).reduce((t, m) => t + m.amount, 0),
-    });
+    // console.log({
+    //     totalTvl: totalTvl.toLocaleString(),
+    //     totalPoints: totalPoints.toLocaleString(),
+    //     bucketOneTvl: bucketOneTvl.toLocaleString(),
+    //     bucketOnePoints: bucketOnePoints.toLocaleString(),
+    //     bucketTwoTvl: bucketTwoTvl.toLocaleString(),
+    //     bucketTwoPoints: bucketTwoPoints.toLocaleString(),
+    //     marketAllocations,
+    //     emitted: Object.values(marketAllocations).reduce((t, m) => t + m.amount, 0),
+    // });
 
     writeFileSync('top-level-data.json', JSON.stringify({
         totalTvl: totalTvl.toLocaleString(),
