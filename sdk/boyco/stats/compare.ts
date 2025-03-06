@@ -736,7 +736,7 @@ async function compare() {
         const nonDurationTokens = apiMarketData[s.id].bera;
         return {
             name: s.name,
-            id: s.id,
+            // id: s.id,
             durationApr: `${s.apr.toLocaleString()}%`,
             durationAmount: s.bera,
             nonDurationApr: `${nonDurationApr.toLocaleString()}%`,
@@ -744,6 +744,50 @@ async function compare() {
             duration: s.duration
         }
     }));
+    const thirtyDayDelta = boycoStatsCalculation.filter((s) => {
+      return s.duration === 30
+    }).reduce((t, c) => {
+      const nonDurationTokens = apiMarketData[c.id].bera;
+      if (nonDurationTokens > c.bera) {
+        return t + (nonDurationTokens - c.bera);
+      }
+      return t;
+    }, 0);
+    const ninetyDayDelta = boycoStatsCalculation.filter((s) => {
+      return s.duration === 90
+    }).reduce((t, c) => {
+      const nonDurationTokens = apiMarketData[c.id].bera;
+      if (nonDurationTokens > c.bera) {
+        return t + (nonDurationTokens - c.bera);
+      }
+      return t;
+    }, 0);
+    console.log({
+      thirtyDayDelta,
+      ninetyDayDelta
+    })
+    const csvInputs = boycoStatsCalculation.map((s) => {
+      const nonDurationApr = apiMarketData[s.id].apr;
+      const nonDurationTokens = apiMarketData[s.id].bera;
+      const toNonDurationDiff = nonDurationTokens - s.bera;
+      return {
+          name: s.name.replaceAll(',', ''),
+          id: s.id,
+          durationApr: `${s.apr.toLocaleString()}%`,
+          durationAmount: s.bera,
+          nonDurationApr: `${nonDurationApr.toLocaleString()}%`,
+          nonDurationAmount: nonDurationTokens,
+          duration: s.duration,
+          toNonDurationDiff: toNonDurationDiff > 0 ? toNonDurationDiff : 0,
+          isDeficient: toNonDurationDiff > 0,
+      }
+  })
+
+  console.log('')
+  let csv = 'name,id,duration,durationApr,durationTokens,nonDurationApr,nonDurationTokens,toNonDurationDiff,isDeficient\n';
+  console.log(csvInputs);
+  csvInputs.forEach((c) => csv = csv.concat(`${c.name},${c.id},${c.duration},${c.durationApr},${c.durationAmount},${c.nonDurationApr},${c.nonDurationAmount},${c.toNonDurationDiff},${c.isDeficient}\n`));
+  writeFileSync("./boyco-comparison.csv", csv);
 }
 
-// compare();
+compare();

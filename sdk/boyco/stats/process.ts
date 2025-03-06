@@ -188,6 +188,7 @@ function processData() {
     let ninetyDayMarkets: any[] = [];
     let tokensForThirtyDay = 0;
     let tokensForNinetyDay = 0;
+    const accountEntitlements: AccountEntitlement = {};
     const thirtyDayAccountEntitlements: AccountEntitlement = {};
     const ninetyDayAccountEntitlements: AccountEntitlement = {};
     for (const entry of Object.values(positionsByMarketByAccount)) {
@@ -235,6 +236,14 @@ function processData() {
             ninetyDayAccountEntitlements[entry.accountAddress][marketId] = entitlement;
             tokensForNinetyDay += marketInfo.amount * percentage;
         }
+
+        if (!accountEntitlements[entry.accountAddress]) {
+            accountEntitlements[entry.accountAddress] = {}
+        }
+        if (accountEntitlements[entry.accountAddress][marketId]) {
+            throw new Error('Duplicate found!');
+        }
+        accountEntitlements[entry.accountAddress][marketId] = entitlement;
     }
 
     let removedAccounts = 0;
@@ -276,6 +285,7 @@ function processData() {
         return t + v;
     }, 0)
 
+    writeFileSync('user-allocations.json', JSON.stringify(accountEntitlements, undefined, 2));
     writeFileSync('user-allocations-ninety-day.json', JSON.stringify(ninetyDayAccountEntitlements, undefined, 2));
     writeFileSync('user-allocations-thirty-day.json', JSON.stringify(thirtyDayAccountEntitlements, undefined, 2));
     console.table(thirtyDayMarkets.map((s) => ({ ...s, usdValue: s.usdValue.toLocaleString(), tokens: s.tokens.toLocaleString() })));

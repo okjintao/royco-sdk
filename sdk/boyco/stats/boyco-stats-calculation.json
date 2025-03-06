@@ -1,1 +1,902 @@
-[]
+[
+  {
+    "name": "Supply USDC on Dolom",
+    "id": "0x1e0a98a276ba873cfa427e247c7d0e438f604a54fcb36481063e1220af021faf",
+    "tokens": 29283486.404483,
+    "tvl": 29271755.639494345,
+    "bera": 166100.6207558639,
+    "apr": 9.205191565329791,
+    "duration": 90
+  },
+  {
+    "name": "Beraborrow SBTC Boyc",
+    "id": "0xe92ebafbee7aa7a636ff62e04aa2ab9353f60ef72dcdcfdfcf48b67a7ad8ffc7",
+    "tokens": 91.94131170683522,
+    "tvl": 8629534.535552638,
+    "bera": 12453.520290582419,
+    "apr": 2.3410738177183017,
+    "duration": 90
+  },
+  {
+    "name": "Provide pumpBTC.bera",
+    "id": "0x2fa37184f43783f5d6b23548c4a7a21bb86cd2f314bba9d5bb7d2415d61d11c8",
+    "tokens": 9.891748362e-9,
+    "tvl": 18936652.81230248,
+    "bera": 27328.008140200473,
+    "apr": 2.3410738177183017,
+    "duration": 90
+  },
+  {
+    "name": "Veda x Ether.fi eBTC",
+    "id": "0xabf4b2f17bc32faf4c3295b1347f36d21ec5629128d465b5569e600bf8d46c4f",
+    "tokens": 3034.63850692,
+    "tvl": 295395060.95393693,
+    "bera": 837638.8714404508,
+    "apr": 4.600064696612296,
+    "duration": 90
+  },
+  {
+    "name": "Supply pumpBTC on Do",
+    "id": "0xff917303af9337534eece4b88948d609980b66ca0b41875da782aec4858cade5",
+    "tokens": 2.58249797,
+    "tvl": 242391.09717261934,
+    "bera": 85.17197603072414,
+    "apr": 1.7100612255064294,
+    "duration": 30
+  },
+  {
+    "name": "Infrared x Kodiak sU",
+    "id": "0xad9ee12ea8b3dccf85934c2918bd4ad38ccf7bc8b43d5fcb6f298858aa4c9ca4",
+    "tokens": 6.739384117017539,
+    "tvl": 14442552.48016149,
+    "bera": 40954.11521483911,
+    "apr": 4.600064696612296,
+    "duration": 90
+  },
+  {
+    "name": "Supply sUSDe to Conc",
+    "id": "0x3d7cf2bd0a04fd3c66a5fa334a399b3926efe0fc0450b8da49a5da29f2c36d7f",
+    "tokens": 43103173.81759361,
+    "tvl": 49456054.24173746,
+    "bera": 140240.37276441325,
+    "apr": 4.600064696612296,
+    "duration": 90
+  },
+  {
+    "name": "Supply SBTC on Dolom",
+    "id": "0x42a09eccabf1080c40a24522e9e8adbee5a0ad907188c9b6e50ba26ba332eac3",
+    "tokens": 25.091185181255646,
+    "tvl": 2355037.6325933468,
+    "bera": 2482.556634312127,
+    "apr": 1.7100612255064294,
+    "duration": 90
+  },
+  {
+    "name": "Supply sUSDe on Dolo",
+    "id": "0x092c0c4d8d124fc29364e8cd8417198c4bbe335e3f6c4b1f79215a3457b4831a",
+    "tokens": 26346.23524741019,
+    "tvl": 30229.347958818995,
+    "bera": 31.86618646236059,
+    "apr": 1.7100612255064294,
+    "duration": 90
+  },
+  {
+    "name": "D2 Finance dgnBerala",
+    "id": "0x0964848864e96952ee2454ce58fc93b867f9b2d9a6b44216eec8b08726813d1b",
+    "tokens": 690000,
+    "tvl": 689723.5907046596,
+    "bera": 1304.5968040198993,
+    "apr": 9.205191565329791,
+    "duration": 30
+  },
+  {
+    "name": "Supply solvBTC.bbn i",
+    "id": "0xbd3ef685577bdca03225bb2cd2158f0772cdfd694ba03b9eb4856b59a7288081",
+    "tokens": 0.5627343623244452,
+    "tvl": 54675.529003179996,
+    "bera": 78.9037701899439,
+    "apr": 2.3410738177183017,
+    "duration": 90
+  },
+  {
+    "name": "Beraborrow ylstETH B",
+    "id": "0xc182b0267a6ca015c2d2a144ca19e1f6b36479675754914002e0613320ed8d9a",
+    "tokens": 1499.1968606506312,
+    "tvl": 4268170.940991017,
+    "bera": 6159.515695582289,
+    "apr": 2.3410738177183017,
+    "duration": 90
+  },
+  {
+    "name": "Veda x Ether.fi weET",
+    "id": "0x0484203315d701daff0d6dbdd55c49c3f220c3c7b917892bed1badb8fdc0182e",
+    "tokens": 37790.68058687842,
+    "tvl": 108009184.50255945,
+    "bera": 306276.9266343129,
+    "apr": 4.600064696612295,
+    "duration": 90
+  },
+  {
+    "name": "Provide beraETH-ylst",
+    "id": "0x219169d9e78064768cddd0397c2202dc9e5c2bc0e1dbc13465363b0458d33c34",
+    "tokens": 3.392620872881704,
+    "tvl": 19357.90480739831,
+    "bera": 27.935928561256908,
+    "apr": 2.3410738177183017,
+    "duration": 90
+  },
+  {
+    "name": "Supply solvBTC.bbn o",
+    "id": "0x2a3a73ba927ec6bbf0e2e12e21a32e274a295389ce9d6ae2b32435d12c597c2c",
+    "tokens": 395.8676542863336,
+    "tvl": 38462683.0392032,
+    "bera": 13515.111553620243,
+    "apr": 1.7100612255064298,
+    "duration": 30
+  },
+  {
+    "name": "Provide FBTC-SolvBTC",
+    "id": "0xc5165360e2e8b195cb55e21cf259ce6a5ee996b055057d8705851d9b01fc8620",
+    "tokens": 9.0661462903e-8,
+    "tvl": 1744.8680484863821,
+    "bera": 2.518067406380978,
+    "apr": 2.3410738177183017,
+    "duration": 90
+  },
+  {
+    "name": "Provide NECT-HONEY L",
+    "id": "0x62bb6fb784e059f338340a9724b35ef2ef8fde5e65613e9fcaacd097d81dc67e",
+    "tokens": 7271900.813646,
+    "tvl": 7268987.739762398,
+    "bera": 20612.351023020376,
+    "apr": 4.600064696612295,
+    "duration": 90
+  },
+  {
+    "name": "Infrared x Kodiak, W",
+    "id": "0xab37ea8895eed81c4aa76d5dba64441756904b15e78f6ffa5183b0fc1563c1c5",
+    "tokens": 0.02097541674,
+    "tvl": 89903634.52948248,
+    "bera": 1428426.06111197,
+    "apr": 25.77453638292341,
+    "duration": 90
+  },
+  {
+    "name": "Provide rsETH-ylrsET",
+    "id": "0x460ec133419318efe4e05b4c3b6db421503fd6fcefbb20a43f50e3fc50f2ee39",
+    "tokens": 0.9709900031824859,
+    "tvl": 5790.446641317596,
+    "bera": 8.356353919448734,
+    "apr": 2.3410738177183017,
+    "duration": 90
+  },
+  {
+    "name": "Provide rUSD-HONEY L",
+    "id": "0xcdb30c06ea11f3f5408bce5eefdb392dfe0008ef81af3a486bcfed891f9cc112",
+    "tokens": 8.499998980708508,
+    "tvl": 16993617.80979875,
+    "bera": 48188.059739122924,
+    "apr": 4.600064696612296,
+    "duration": 90
+  },
+  {
+    "name": "Provide WBTC-pumpBTC",
+    "id": "0xa74b61544834483b093531cff533d01788a5dea12d8a83902646111025303bfb",
+    "tokens": 1.36790429e-9,
+    "tvl": 2615561.752252961,
+    "bera": 7416.834212680422,
+    "apr": 4.600064696612296,
+    "duration": 90
+  },
+  {
+    "name": "Supply beraETH on Do",
+    "id": "0x258ac521d801d5112a484ad1b82e6fd2efc24aba29e5cd3d56db83f4a173dc90",
+    "tokens": 336.65862846339877,
+    "tvl": 962200.8217737006,
+    "bera": 338.100475986088,
+    "apr": 1.7100612255064294,
+    "duration": 30
+  },
+  {
+    "name": "Provide WBTC-SBTC Li",
+    "id": "0x289dc2a22ebb4ef7404de9293b6718d9f81f0843e1af4cf9a9c51d2e757348d6",
+    "tokens": 0.000203623829759832,
+    "tvl": 3894021.359759254,
+    "bera": 11042.106278352381,
+    "apr": 4.600064696612296,
+    "duration": 90
+  },
+  {
+    "name": "Supply solvBTC on Do",
+    "id": "0xb1d5ccc4388fe639f8d949061bc2de95ecb1efb11c5ceb93bdb71caab58c8aa3",
+    "tokens": 301.7664420163111,
+    "tvl": 29362580.863970146,
+    "bera": 30952.48624290766,
+    "apr": 1.7100612255064294,
+    "duration": 90
+  },
+  {
+    "name": "Supply STONE on Dolo",
+    "id": "0xb27f671bc0dd8773a25136253acd72150dd59e50e44dc8439e9dc5c84c2b19f6",
+    "tokens": 787.6055292001831,
+    "tvl": 2338014.889486036,
+    "bera": 2464.612155102803,
+    "apr": 1.7100612255064294,
+    "duration": 90
+  },
+  {
+    "name": "Beraborrow beraETH B",
+    "id": "0xd77d3e3e075394a6c94a8c83dab114bb7266b96c5234e4a98476f41339029c30",
+    "tokens": 86.38792579327757,
+    "tvl": 246904.50848983412,
+    "bera": 356.31473443283636,
+    "apr": 2.3410738177183017,
+    "duration": 90
+  },
+  {
+    "name": "Beraborrow SolvBTC B",
+    "id": "0x28b337bd45eda5e2fc596bfe22320bef0af9da85d4c770d0fd03ddf72428c00a",
+    "tokens": 400.06761356582064,
+    "tvl": 38927514.855170734,
+    "bera": 56177.374818255084,
+    "apr": 2.3410738177183017,
+    "duration": 90
+  },
+  {
+    "name": "Beraborrow pumpBTC B",
+    "id": "0xfe95d44ab171140b66fb5180e9de765578d9d2bfbdbb66307abb86ba05a59e93",
+    "tokens": 2180.40970501,
+    "tvl": 204651429.28387323,
+    "bera": 295338.1455956122,
+    "apr": 2.3410738177183017,
+    "duration": 90
+  },
+  {
+    "name": "D2 Finance Kodiak++,",
+    "id": "0x027987432679079fbbc990691d14dabe7f7780f51df6a1a53e7bd875b1f9581a",
+    "tokens": 256443.09854,
+    "tvl": 256340.369183243,
+    "bera": 1454.5862902967133,
+    "apr": 9.20519156532979,
+    "duration": 90
+  },
+  {
+    "name": "Supply HONEY on Dolo",
+    "id": "0x9778047cb8f3740866882a97a186dff42743bebb3ad8010edbf637ab0e37751f",
+    "tokens": 11140052.952681,
+    "tvl": 11135590.323424906,
+    "bera": 63188.16295078293,
+    "apr": 9.20519156532979,
+    "duration": 90
+  },
+  {
+    "name": "Infrared x Kodiak WB",
+    "id": "0x6262ac035c2284f5b5249a690a6fd81c35f1ecef501da089f25741a4492cf5f3",
+    "tokens": 2.6836451112e-7,
+    "tvl": 30344695.728500642,
+    "bera": 482129.0532018373,
+    "apr": 25.77453638292341,
+    "duration": 90
+  },
+  {
+    "name": "Supply wBTC on Dolom",
+    "id": "0xa6905c68ad66ea9ce966aa1662e1417df08be333ab8ec04507e0f0301d3a78e9",
+    "tokens": 200.9829566,
+    "tvl": 19564643.618888192,
+    "bera": 111018.2624502367,
+    "apr": 9.20519156532979,
+    "duration": 90
+  },
+  {
+    "name": "Supply stBTC on Dolo",
+    "id": "0xc6887dddd833a3d585c7941cd31b0f8ff3ec5903d49cd5e7ac450b46532d3e79",
+    "tokens": 250,
+    "tvl": 24408499.677169852,
+    "bera": 8576.71826110569,
+    "apr": 1.7100612255064291,
+    "duration": 30
+  },
+  {
+    "name": "Suppy uniBTC on Dolo",
+    "id": "0xd10bdc88272e0958baa62a4ae2bfce1d8feed639a93e03c0aa5cec7adfbdf2c3",
+    "tokens": 62.561053,
+    "tvl": 5985778.989987,
+    "bera": 2103.297648334481,
+    "apr": 1.7100612255064294,
+    "duration": 30
+  },
+  {
+    "name": "Infrared x Kodiak be",
+    "id": "0x1997c604de34a71974228bca4a66f601427c48960b6e59ff7ebc8e34f43f3ecf",
+    "tokens": 14877.418322423287,
+    "tvl": 86714250.03584988,
+    "bera": 125139.7358519218,
+    "apr": 2.3410738177183017,
+    "duration": 90
+  },
+  {
+    "name": "Provide pumpBTC.bera",
+    "id": "0xab27dc8061f66791bb94a536546b08ba15e06344dabad2cc6267cf44f0070574",
+    "tokens": 9.17694e-13,
+    "tvl": 1734.6920723994426,
+    "bera": 2.5033821734575703,
+    "apr": 2.3410738177183017,
+    "duration": 90
+  },
+  {
+    "name": "Supply USDe to Concr",
+    "id": "0x5043bfe3f6bab5fa4c8f19fb2f6856de2d2e717a541e0d7126b308926be04e2e",
+    "tokens": 55840431.80744001,
+    "tvl": 55769654.41424765,
+    "bera": 158143.57299446836,
+    "apr": 4.600064696612296,
+    "duration": 90
+  },
+  {
+    "name": "Beraborrow ylrsETH B",
+    "id": "0x6b3dfac03cea102e59d2d5711088f3001782e07239dcc90f274dd9762220c49a",
+    "tokens": 2.6344914199796308,
+    "tvl": 7734.234531119401,
+    "bera": 11.161488058086832,
+    "apr": 2.3410738177183017,
+    "duration": 90
+  },
+  {
+    "name": "BurrBear USDC Stable",
+    "id": "0x71cee3cf3329e9a2803d578cdd6c823d7a16aa39adea3a7053395299bd258800",
+    "tokens": 2475722.089529,
+    "tvl": 2474730.332140268,
+    "bera": 12638.422665551741,
+    "apr": 8.284672408796812,
+    "duration": 90
+  },
+  {
+    "name": "Provide USDe-USDa Li",
+    "id": "0xab689b5eac7541b8cc774f0ca3705a91b21660e8221fc7bd8e93c391fb5d690d",
+    "tokens": 1926.9534646680158,
+    "tvl": 3849.5599704161696,
+    "bera": 5.555406610157508,
+    "apr": 2.3410738177183017,
+    "duration": 90
+  },
+  {
+    "name": "Supply uniBTC into G",
+    "id": "0x72679855f582a6d908bf39d40cb5a299b6a98a82bf1bfd9055f1853fc5160f54",
+    "tokens": 200,
+    "tvl": 19135800,
+    "bera": 27615.40296231815,
+    "apr": 2.341073817718302,
+    "duration": 90
+  },
+  {
+    "name": "Supply WBTC to Concr",
+    "id": "0xece925dbccbb21333dbe99679fef655ad2dc2cb185e0963711c944e302595b28",
+    "tokens": 1216.12783863,
+    "tvl": 118383708.55076136,
+    "bera": 335695.5113168197,
+    "apr": 4.600064696612295,
+    "duration": 90
+  },
+  {
+    "name": "Kodiak x Beraborrow ",
+    "id": "0xf8663b3c0f78b4efae0422b163e86e79afa1ce90778885d93d53c9d4f6d5c3d8",
+    "tokens": 0.000758228040488888,
+    "tvl": 203311.06294909964,
+    "bera": 3230.290102828192,
+    "apr": 25.774536382923408,
+    "duration": 90
+  },
+  {
+    "name": "Infrared x Kodiak US",
+    "id": "0x5f7935e257b94aee6caf9bbe917d4cfad75e8bc3b231806769ca0935af8371e8",
+    "tokens": 10.139061902251733,
+    "tvl": 20268740.05800107,
+    "bera": 57475.18084045202,
+    "apr": 4.600064696612295,
+    "duration": 90
+  },
+  {
+    "name": "Restake waBTC on Sat",
+    "id": "0x2dcd8ec59fe12b4cb802f5a26445f9684635c52139560f169a7c4d67da186c18",
+    "tokens": 150.0035851854345,
+    "tvl": 14602067.43574476,
+    "bera": 15392.730411429786,
+    "apr": 1.7100612255064291,
+    "duration": 90
+  },
+  {
+    "name": "Provide sUSDa-USDa L",
+    "id": "0xd70673b98af7096f575717d70fbf2fa935dd719926b55c0e011480678cdac563",
+    "tokens": 9749220.957188403,
+    "tvl": 20017925.220303405,
+    "bera": 28888.422298949077,
+    "apr": 2.3410738177183017,
+    "duration": 90
+  },
+  {
+    "name": "Supply ylBTCLST on D",
+    "id": "0x0194c329e2b9712802c37d3f17502bcefce2e128933f24f4fe847dfc7e5e8965",
+    "tokens": 0.01444218,
+    "tvl": 1409.4989992800001,
+    "bera": 0.49527320261483077,
+    "apr": 1.7100612255064294,
+    "duration": 30
+  },
+  {
+    "name": "Provide rsETH-beraET",
+    "id": "0x25f7a422282a1f26d9d96b5d1c43fa5c6f8c355b0ed7a4755ac8d04a504817f5",
+    "tokens": 802.4007062652214,
+    "tvl": 4726408.1894148,
+    "bera": 6820.810560054464,
+    "apr": 2.3410738177183017,
+    "duration": 90
+  },
+  {
+    "name": "Beraborrow ylpumpBTC",
+    "id": "0x897eec875e51d6c8b5339d6a9984a00acb0aa86f9d4ab4eddbb4a791bb0a88e9",
+    "tokens": 0.00751565,
+    "tvl": 715.1591913999999,
+    "bera": 1.0320660360537113,
+    "apr": 2.3410738177183017,
+    "duration": 90
+  },
+  {
+    "name": "Kodiak x Beraborrow ",
+    "id": "0xcdd60ed30d20f9edc3fac624bb623db32103658b6da678949ef53df16139b488",
+    "tokens": 4.532653898e-9,
+    "tvl": 512519.34469051333,
+    "bera": 8143.118936308172,
+    "apr": 25.77453638292341,
+    "duration": 90
+  },
+  {
+    "name": "Infrared x Kodiak US",
+    "id": "0xf8f745f188ddb10c16724faee95583521191c3c69e15490fa53c1136b73c17d7",
+    "tokens": 5.38141421979e-7,
+    "tvl": 1429690.7190474062,
+    "bera": 7301.415978003033,
+    "apr": 8.284672408796812,
+    "duration": 90
+  },
+  {
+    "name": "Infrared x Kodiak US",
+    "id": "0x72bec627884d7bdf538f174bedd551e9eccf3995adc880f40972e2bab87df3b9",
+    "tokens": 7617633.601557,
+    "tvl": 7614582.029475887,
+    "bera": 38887.59306829248,
+    "apr": 8.284672408796812,
+    "duration": 90
+  },
+  {
+    "name": "Provide WBTC-FBTC Li",
+    "id": "0xd6e9ff1fa0c9c6bb25cafcb76c61c0d398a479ba073509e10209271f40a01712",
+    "tokens": 6.726092e-12,
+    "tvl": 12947.727830288053,
+    "bera": 36.71530624938858,
+    "apr": 4.600064696612296,
+    "duration": 90
+  },
+  {
+    "name": "Restake LBTC on SatL",
+    "id": "0xde894ab596c084e65d0123ab6fa66f95b0571091cd8ec7efbeabe4942e7c40cd",
+    "tokens": 1206.68391975,
+    "tvl": 117459944.31094971,
+    "bera": 123820.0867703217,
+    "apr": 1.7100612255064298,
+    "duration": 90
+  },
+  {
+    "name": "Restake pumpBTC on S",
+    "id": "0x036d9e250c6dafef1dd361199181548f9990a00452abf5231cebe7a15f9e19bd",
+    "tokens": 1.24693427,
+    "tvl": 117036.20654053762,
+    "bera": 123.3734047306862,
+    "apr": 1.7100612255064298,
+    "duration": 90
+  },
+  {
+    "name": "Veda x Ether.fi weET",
+    "id": "0xff0182973d5f1e9a64392c413caaa75f364f24632a7de0fdd1a31fe30517fdd2",
+    "tokens": 47127.12901203016,
+    "tvl": 141076180.04998857,
+    "bera": 400043.56153615407,
+    "apr": 4.600064696612296,
+    "duration": 90
+  },
+  {
+    "name": "Lend USDC on Dahlia ",
+    "id": "0x20ca89af1fd136d0ef9c4e3e74e8ab1943d28e6879206a3e180fd35e29fb2d7d",
+    "tokens": 36414.063931,
+    "tvl": 36399.47670527297,
+    "bera": 206.54639750329952,
+    "apr": 9.205191565329791,
+    "duration": 90
+  },
+  {
+    "name": "Veda x Ether.fi eBTC",
+    "id": "0xb36f14fd392b9a1d6c3fabedb9a62a63d2067ca0ebeb63bbc2c93b11cc8eb3a2",
+    "tokens": 1273.1922403,
+    "tvl": 123938630.72369272,
+    "bera": 351447.36148265353,
+    "apr": 4.600064696612296,
+    "duration": 90
+  },
+  {
+    "name": "Provide USDa-HONEY L",
+    "id": "0xfa4917a871f9cf06d3d00be6678993888b3aac41c3da21edf32c3c9cf3978d70",
+    "tokens": 0.5773072336958793,
+    "tvl": 1153888.0112939177,
+    "bera": 3272.0298316010876,
+    "apr": 4.600064696612296,
+    "duration": 90
+  },
+  {
+    "name": "Beraborrow RSETH Boy",
+    "id": "0xfef8ead03d79cf7cbe6f73c8d1136f8c84f6cf6ed9bc208719e7fcee807cb336",
+    "tokens": 549.4239679814436,
+    "tvl": 1663743.8371237624,
+    "bera": 2400.994810159288,
+    "apr": 2.3410738177183017,
+    "duration": 90
+  },
+  {
+    "name": "Supply wETH on Dolom",
+    "id": "0x0a7565b14941c6a3dde083fb7a857e27e12c55fa34f709c37586ec585dbe7f3f",
+    "tokens": 44990.21592920994,
+    "tvl": 128586107.94099534,
+    "bera": 729653.2743926935,
+    "apr": 9.20519156532979,
+    "duration": 90
+  },
+  {
+    "name": "Provide WBTC-waBTC L",
+    "id": "0x49104b3cadbb31470e5b949c6892a33954ee9ce35041df4a04a88eb694b645c0",
+    "tokens": 0.000100350333381571,
+    "tvl": 1962058.8928852717,
+    "bera": 5563.724699487787,
+    "apr": 4.600064696612295,
+    "duration": 90
+  },
+  {
+    "name": "Lend USDC on Dahlia ",
+    "id": "0x7e804adb4c426b81fbe1f005f92d8dee99f98b0502c3946ac5ad436b453c6435",
+    "tokens": 654168.921637,
+    "tvl": 653906.8660273431,
+    "bera": 3710.550801985974,
+    "apr": 9.20519156532979,
+    "duration": 90
+  },
+  {
+    "name": "Supply ylstETH on Do",
+    "id": "0x5bac1cacdd36b3d95a7f9880a264f8481ab56d3d1a53993de084c6fa5febcc15",
+    "tokens": 1.2930487278768652,
+    "tvl": 3681.2730539031986,
+    "bera": 1.2935347212290755,
+    "apr": 1.7100612255064298,
+    "duration": 30
+  },
+  {
+    "name": "Supply NECT on Dolom",
+    "id": "0xbe5cd829fcb3cdfe8224ad72fc3379198d38da26131c5b7ab6664c8f56a9730d",
+    "tokens": 99529.093277,
+    "tvl": 99489.22260085716,
+    "bera": 104.87629844722836,
+    "apr": 1.7100612255064298,
+    "duration": 90
+  },
+  {
+    "name": "Kodiak x Beraborrow ",
+    "id": "0x568d2509ec17c27426a9d55e58673160c937aeaedc0a3fcc7c63c5b7df495ec7",
+    "tokens": 0.002519008846078341,
+    "tvl": 10796832.000123616,
+    "bera": 171544.5241690056,
+    "apr": 25.77453638292341,
+    "duration": 90
+  },
+  {
+    "name": "Beraborrow uniBTC Bo",
+    "id": "0xb32d047eb63b5c2af537c2e4df6a09c40a50b75aefd83a928600241a4666b087",
+    "tokens": 551.03798448,
+    "tvl": 52722763.317061916,
+    "bera": 76085.67994479406,
+    "apr": 2.3410738177183017,
+    "duration": 90
+  },
+  {
+    "name": "Supply rswETH on Dol",
+    "id": "0xc90525132d909f992363102ebd6298d95b1f312acdb9421fd1f7ac0c0dd78d3f",
+    "tokens": 1128.811552239539,
+    "tvl": 3328766.9415713646,
+    "bera": 1169.6702620949625,
+    "apr": 1.7100612255064294,
+    "duration": 30
+  },
+  {
+    "name": "Provide SolvBTC-Solv",
+    "id": "0x378d4d32d89450978d01cfdf1ff1907d4419aa186c48abb94e612b76d75f3fae",
+    "tokens": 98.00160883955182,
+    "tvl": 19058660.564435598,
+    "bera": 27504.08090641263,
+    "apr": 2.3410738177183017,
+    "duration": 90
+  },
+  {
+    "name": "Supply rsETH on Dolo",
+    "id": "0x415f935bbb9bf1bdc1f49f2ca763d5b2406efbf9cc949836880dd5bbd054db95",
+    "tokens": 831.2264461916176,
+    "tvl": 2517086.908651751,
+    "bera": 2653.3804461258105,
+    "apr": 1.7100612255064298,
+    "duration": 90
+  },
+  {
+    "name": "Supply sUSDa on Dolo",
+    "id": "0x2dd74f8f8a8d7f27b2a82a6edce57b201f9b4a3c4780934caf99363115e48be6",
+    "tokens": 19999973.79173583,
+    "tvl": 21099972.350281302,
+    "bera": 7414.159844275443,
+    "apr": 1.7100612255064298,
+    "duration": 30
+  },
+  {
+    "name": "Provide WBTC-uniBTC ",
+    "id": "0x568f3bb6ba4c6afe37899fda35bc315ae8167274685ea295e03cf20d471afd8b",
+    "tokens": 4.67493576e-10,
+    "tvl": 903026.8060968631,
+    "bera": 2560.6736696840157,
+    "apr": 4.600064696612296,
+    "duration": 90
+  },
+  {
+    "name": "Provide pumpBTC.bera",
+    "id": "0xaa636d73f39ea0de0e04ed9270eac5d943707e7f8fb9c3480c0d80eb015ccfc8",
+    "tokens": 1.230241142e-9,
+    "tvl": 2325448.8248735187,
+    "bera": 3355.9196044655264,
+    "apr": 2.3410738177183017,
+    "duration": 90
+  },
+  {
+    "name": "Beraborrow WETH Boyc",
+    "id": "0xb9f307d83c78d09a134aac7713821aab8e1da2404b895db66f0975135dd5006e",
+    "tokens": 217.7605908179061,
+    "tvl": 622379.4720226387,
+    "bera": 898.1730534067026,
+    "apr": 2.3410738177183017,
+    "duration": 90
+  },
+  {
+    "name": "Restake solvBTC.bbn ",
+    "id": "0x7dadff589e53d9813969d0be6de99c033d140ec1d304e57a754797736656dcd5",
+    "tokens": 1492.8247993844057,
+    "tvl": 145043542.88631436,
+    "bera": 152897.26358217027,
+    "apr": 1.7100612255064294,
+    "duration": 90
+  },
+  {
+    "name": "Beraborrow stBTC Boy",
+    "id": "0x84790e638ddd7a59e64b8c239e96e29c2c6c155a9882a0c834b9ced016b7c999",
+    "tokens": 0.17887528421918333,
+    "tvl": 17464.30926847041,
+    "bera": 25.203228394284952,
+    "apr": 2.3410738177183017,
+    "duration": 90
+  },
+  {
+    "name": "Beraborrow ylBTCLST ",
+    "id": "0x4fa4a76aa8b93ccdddba0c20c336056803b7410fb375c9c9541e9c54fbfb2f9a",
+    "tokens": 0.09513474,
+    "tvl": 9284.77008504,
+    "bera": 13.399108859355582,
+    "apr": 2.341073817718302,
+    "duration": 90
+  },
+  {
+    "name": "THJ&#x2F;Set and For",
+    "id": "0xaa449e0679bd82798c7896c6a031f2da55299e64c0b4bddd57ad440921c04628",
+    "tokens": 42000000,
+    "tvl": 41983175.08637059,
+    "bera": 214407.6486606617,
+    "apr": 8.284672408796812,
+    "duration": 90
+  },
+  {
+    "name": "Provide USDe-NECT Li",
+    "id": "0x2240151f263be555a4ef61476a5c111373e0efe8cd539f179b4b5850977e9d4e",
+    "tokens": 113602.20098014193,
+    "tvl": 113458.21091083129,
+    "bera": 163.7346864874365,
+    "apr": 2.3410738177183017,
+    "duration": 90
+  },
+  {
+    "name": "Supply USDT on Dolom",
+    "id": "0x9c7bd5b59ebcb9a9e6787b9b174a98a69e27fa5a4fe98270b461a1b9b1b1aa3e",
+    "tokens": 3083400.925057,
+    "tvl": 3082632.6098699574,
+    "bera": 17492.192691402015,
+    "apr": 9.205191565329791,
+    "duration": 90
+  },
+  {
+    "name": "Beraborrow STONE Boy",
+    "id": "0x88ee202388086447b8dc8403c5aa2cfbcdb52e749fd16af5c6a3c7bb614b17c9",
+    "tokens": 991.1870549242358,
+    "tvl": 2942348.6844131434,
+    "bera": 4246.184877335446,
+    "apr": 2.3410738177183017,
+    "duration": 90
+  },
+  {
+    "name": "Infrared x Kodiak MI",
+    "id": "0x9a117f13c7d5d2b4b18e444f72e6e77c010a1fd90cf21135be75669d66ad9428",
+    "tokens": 1.9631002209648618,
+    "tvl": 3925176.8910100074,
+    "bera": 11130.452657441225,
+    "apr": 4.600064696612296,
+    "duration": 90
+  },
+  {
+    "name": "Provide uniBTC-ylBTC",
+    "id": "0x21c6a0baa6f41b060937be5a4f1be096b63f426c50f763b4dabd1af46803fa2f",
+    "tokens": 4.90677305e-9,
+    "tvl": 9483988.302631246,
+    "bera": 13686.606186680125,
+    "apr": 2.3410738177183017,
+    "duration": 90
+  },
+  {
+    "name": "Supply rsETH into Go",
+    "id": "0xab32e1695b84b148140cb78c044d247e307b26cb043dc5538657f3a5634dee6e",
+    "tokens": 626.2196012917366,
+    "tvl": 1896293.3236476767,
+    "bera": 2736.593414818517,
+    "apr": 2.3410738177183017,
+    "duration": 90
+  },
+  {
+    "name": "Supply ylpumpBTC on ",
+    "id": "0x6306bfce6bff30ec4efcea193253c43e057f1474007d0d2a5a0c2938bd6a9b81",
+    "tokens": 0.99986203,
+    "tvl": 95142.87132667999,
+    "bera": 33.43153461762388,
+    "apr": 1.7100612255064294,
+    "duration": 30
+  },
+  {
+    "name": "Provide WBTC-SolvBTC",
+    "id": "0x290aad1fabd8d2557d28a3854a2433ddc11a35f0d12936dd99102067ac515d07",
+    "tokens": 0.000108132417985527,
+    "tvl": 2104922.3238900304,
+    "bera": 5968.836290488956,
+    "apr": 4.600064696612296,
+    "duration": 90
+  },
+  {
+    "name": "Supply LBTC to Concr",
+    "id": "0xa31a8bb230f77a5d286985b92fe8d0c7504a1892568d70685659f781aec78209",
+    "tokens": 2416.80332805,
+    "tvl": 235254302.86838037,
+    "bera": 667100.3506958054,
+    "apr": 4.600064696612296,
+    "duration": 90
+  },
+  {
+    "name": "Restake uniBTC on Sa",
+    "id": "0xdd3f0e11d59726f2e63fc1b180abc94034dd3e0f4018b51371b73348d82b3769",
+    "tokens": 4.05706532,
+    "tvl": 388175.95275228005,
+    "bera": 409.1946444713157,
+    "apr": 1.7100612255064294,
+    "duration": 90
+  },
+  {
+    "name": "Beraborrow SolvBTC.B",
+    "id": "0x54b4b37c355868591a91baed36a3c8083f6480ccb11145106d0dad912d7dffd2",
+    "tokens": 973.381556352981,
+    "tvl": 94574198.90924263,
+    "bera": 136482.64575910935,
+    "apr": 2.3410738177183017,
+    "duration": 90
+  },
+  {
+    "name": "Infrared x Kodiak WE",
+    "id": "0xaf2a845c9d6007128b7aec375a4fcdee2b12bbaeb78caf928d3bd08e104417d6",
+    "tokens": 9316.298788736169,
+    "tvl": 26626824.89774905,
+    "bera": 75504.52429829551,
+    "apr": 4.600064696612296,
+    "duration": 90
+  },
+  {
+    "name": "Lend wETH on Dahlia ",
+    "id": "0x4dd921e829db80e73c56d888eeaf46a7934a3c4a2f7f78231dd4502f8eaa2558",
+    "tokens": 413.6147541960537,
+    "tvl": 1182148.3922799209,
+    "bera": 6708.022033304775,
+    "apr": 9.205191565329791,
+    "duration": 90
+  },
+  {
+    "name": "Restake SBTC on SatL",
+    "id": "0x7ccce28638cbb503d17e8d9290a97f18731199655ccde282da7b464f21361b79",
+    "tokens": 25.00311934,
+    "tvl": 2346771.8464694624,
+    "bera": 2473.8432779327395,
+    "apr": 1.7100612255064294,
+    "duration": 90
+  },
+  {
+    "name": "D2 Finance HyperBERA",
+    "id": "0xb7b78119806fcb9bbc499131da16b52ce52cf4a1ceabfc59e4f2f6e6ef7046c0",
+    "tokens": 10000000,
+    "tvl": 9995994.068183472,
+    "bera": 18907.20005825941,
+    "apr": 9.20519156532979,
+    "duration": 30
+  },
+  {
+    "name": "Infrared x Kodiak WE",
+    "id": "0x7ecf55915abe3c24dc5d8365a8edabc8833f4efb8e7c027429c9528aed91ecb7",
+    "tokens": 47830.43886856873,
+    "tvl": 278783626.6674209,
+    "bera": 790534.5528244593,
+    "apr": 4.600064696612296,
+    "duration": 90
+  },
+  {
+    "name": "Supply USDa on Dolom",
+    "id": "0x86a5077c6a9190cde78ec75b8888c46ed0a3d1289054127a955a2af544633cf3",
+    "tokens": 2790978.4249815987,
+    "tvl": 2788206.983405592,
+    "bera": 979.7269830838668,
+    "apr": 1.7100612255064294,
+    "duration": 30
+  },
+  {
+    "name": "Origami USDC Boyco V",
+    "id": "0xa655556eb64a0fd18b9a3c80794ab370743bc431a4b2a6116fa97dcc7f741a2b",
+    "tokens": 69000000,
+    "tvl": 68972359.07046597,
+    "bera": 352241.1370853729,
+    "apr": 8.284672408796814,
+    "duration": 90
+  },
+  {
+    "name": "Provide beraETH-RSWE",
+    "id": "0x3ef317447bd10825f0a053565f8474a460cfb22cda414ea30b671e304f0691b6",
+    "tokens": 33.534457692741455,
+    "tvl": 198274.35508960375,
+    "bera": 286.13521320734765,
+    "apr": 2.3410738177183017,
+    "duration": 90
+  },
+  {
+    "name": "Infrared x Kodiak WE",
+    "id": "0x17ffd16948c053cc184c005477548e559566879a0e2847e87ebd1111c602535c",
+    "tokens": 0.15522485041486056,
+    "tvl": 41621949.66254719,
+    "bera": 661306.7193938195,
+    "apr": 25.774536382923408,
+    "duration": 90
+  },
+  {
+    "name": "Provide WBTC-stBTC L",
+    "id": "0x9b60d30f266858fa671bf268796aa503700310e31a8f46ebaa8f8281fbad89aa",
+    "tokens": 6.89674889186e-7,
+    "tvl": 13447.561854674708,
+    "bera": 38.13266375950641,
+    "apr": 4.600064696612296,
+    "duration": 90
+  },
+  {
+    "name": "Supply USDe on Dolom",
+    "id": "0xa588ad19850cf2a111c3c727033da8e557abc94de70fce2d2b2f2f78140f15e5",
+    "tokens": 751479.4430351582,
+    "tvl": 750526.9476067723,
+    "bera": 791.1659785068721,
+    "apr": 1.7100612255064298,
+    "duration": 90
+  }
+]
