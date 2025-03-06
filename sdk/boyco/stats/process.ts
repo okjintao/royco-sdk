@@ -188,7 +188,8 @@ function processData() {
     let ninetyDayMarkets: any[] = [];
     let tokensForThirtyDay = 0;
     let tokensForNinetyDay = 0;
-    const accountEntitlements: AccountEntitlement = {};
+    const thirtyDayAccountEntitlements: AccountEntitlement = {};
+    const ninetyDayAccountEntitlements: AccountEntitlement = {};
     for (const entry of Object.values(positionsByMarketByAccount)) {
         const marketId = entry.marketId.slice(4);
         const marketInfo = marketAllocations[marketId];
@@ -212,59 +213,65 @@ function processData() {
             }
             includedMarkets.add(marketId);
         }
-        if (!accountEntitlements[entry.accountAddress]) {
-            accountEntitlements[entry.accountAddress] = {}
-        }
-        if (accountEntitlements[entry.accountAddress][marketId]) {
-            throw new Error('Duplicate found!');
-        }
+
         const percentage = entry.inputTokenAmountUSD / marketInfo.usdValue;
         const entitlement = marketInfo.amount * percentage;
-        // const claimed = claims[entry.accountAddress] ?? 0;
-
-        // if (claimed > entitlement) {
-        //     leakedBera += claimed - entitlement;
-        // } else if (claimed > 0) {
-        //     deficientBera += entitlement - claimed;
-        // }
-
-        // if (claims[entry.accountAddress]) {
-        //     console.log({
-        //         claimed: claims[entry.accountAddress],
-        //         entitlement
-        //     });
-        // }
-
-        accountEntitlements[entry.accountAddress][marketId] = entitlement;
         if (marketInfo.duration === 30) {
+            if (!thirtyDayAccountEntitlements[entry.accountAddress]) {
+                thirtyDayAccountEntitlements[entry.accountAddress] = {}
+            }
+            if (thirtyDayAccountEntitlements[entry.accountAddress][marketId]) {
+                throw new Error('Duplicate found!');
+            }
+            thirtyDayAccountEntitlements[entry.accountAddress][marketId] = entitlement;
             tokensForThirtyDay += marketInfo.amount * percentage;
         } else {
+            if (!ninetyDayAccountEntitlements[entry.accountAddress]) {
+                ninetyDayAccountEntitlements[entry.accountAddress] = {}
+            }
+            if (ninetyDayAccountEntitlements[entry.accountAddress][marketId]) {
+                throw new Error('Duplicate found!');
+            }
+            ninetyDayAccountEntitlements[entry.accountAddress][marketId] = entitlement;
             tokensForNinetyDay += marketInfo.amount * percentage;
         }
     }
 
-    // console.log({
-    //     leakedBera,
-    //     deficientBera,
-    // });
+    for (const [key, value] of Object.entries(thirtyDayAccountEntitlements)) {
+        const amount = Object.values(value).reduce((t, c) => t += c, 0);
+        const claimed = claims[key];
 
-    // const totalEvaluatedBera = Object.values(accountEntitlements).flatMap((v) => Object.values(v)).reduce((t, c) => t + c, 0);
-    // console.log({
-    //     totalEvaluatedBera
-    // });
-    // writeFileSync('user-allocations.json', JSON.stringify(accountEntitlements, undefined, 2));
-    // writeFileSync('user-allocations-thirty-day.json', JSON.stringify(accountEntitlements, undefined, 2));
+        console.log({
+            key,
+            amount,
+            claimed,
+        })
+
+        if (claimed > amount) {
+            leakedBera += claimed - amount;
+        } else if (claimed > 0) {
+            deficientBera += amount - claimed;
+        }
+    }
+
+    console.log({
+        leakedBera,
+        deficientBera,
+    });
+
+    writeFileSync('user-allocations-ninety-day.json', JSON.stringify(ninetyDayAccountEntitlements, undefined, 2));
+    writeFileSync('user-allocations-thirty-day.json', JSON.stringify(thirtyDayAccountEntitlements, undefined, 2));
     console.table(thirtyDayMarkets.map((s) => ({ ...s, usdValue: s.usdValue.toLocaleString(), tokens: s.tokens.toLocaleString() })));
     const thirtyDayTvl = thirtyDayMarkets.reduce((total, c) => total += c.usdValue, 0);
     console.log(`Total TVL: ${thirtyDayTvl.toLocaleString()}`)
     console.log(`Distributed ${((tokensForThirtyDay / 10_000_000) * 100).toFixed(3)}% of Boyco`);
     console.log(`Distributed ${tokensForThirtyDay.toLocaleString()} BERA`);
-    // console.log(`Total Claimants: ${Object.keys(accountEntitlements).length}`);
+    console.log(`Total Claimants: ${Object.keys(thirtyDayAccountEntitlements).length}`);
     console.log('');
     console.table(ninetyDayMarkets.map((s) => ({ ...s, usdValue: s.usdValue.toLocaleString(), tokens: s.tokens.toLocaleString() })));
     const ninetyDayTvl = ninetyDayMarkets.reduce((total, c) => total += c.usdValue, 0);
     console.log(`Total TVL: ${ninetyDayTvl.toLocaleString()}`)
-    // console.log(`Total Claimants: ${Object.keys(accountEntitlements).length}`);
+    console.log(`Total Claimants: ${Object.keys(ninetyDayAccountEntitlements).length}`);
     console.log(`Distributed ${((tokensForNinetyDay / 10_000_000) * 100).toFixed(3)}% of Boyco`);
     console.log(`Distributed ${tokensForNinetyDay.toLocaleString()} BERA`);
 }
