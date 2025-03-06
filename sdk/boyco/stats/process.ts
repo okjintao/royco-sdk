@@ -49,10 +49,10 @@ const claims = Object.fromEntries(Object.entries({
     "0xED3981C6220dFcd368268b180b87AB643ce04b75": 239.86558804423955848,
 }).map((e) => [e[0].toLowerCase(), e[1]]));
 
-// console.log(`Found ${Object.values(claims).length} claims`);
-// const totalClaimed = Object.values(claims).reduce((t,c) => t += c, 0);
-// console.log(`Claimed ${totalClaimed} BERA`);
-// console.log(43988.291381501009248025 + totalClaimed);
+console.log(`Found ${Object.values(claims).length} claims`);
+const totalClaimed = Object.values(claims).reduce((t,c) => t += c, 0);
+console.log(`Claimed ${totalClaimed} BERA`);
+console.log(43988.291381501009248025 + totalClaimed);
 
 interface AccountEntitlement {
     [address: string]: {
@@ -237,26 +237,44 @@ function processData() {
         }
     }
 
+    let removedAccounts = 0;
     for (const [key, value] of Object.entries(thirtyDayAccountEntitlements)) {
         const amount = Object.values(value).reduce((t, c) => t += c, 0);
         const claimed = claims[key];
 
         if (claimed > amount) {
             leakedBera += claimed - amount;
+            console.log(`${key} leaked ${claimed - amount}`)
+            delete thirtyDayAccountEntitlements[key];
+            removedAccounts++
         } else if (claimed > 0) {
-            deficientBera += amount - claimed;
-            console.log({
-                key,
-                amount,
-                claimed,
-            })
+            const owed = amount - claimed;
+            deficientBera += owed;
+            const entitlement = Object.values(value).reduce((t, c) => t + c, 0);
+            // console.log({
+            //     key,
+            //     amount,
+            //     claimed,
+            // })
+            const reduction = owed / entitlement;
+            console.log(`${key} deficient ${owed}, reduce by ${((1 - reduction) * 100).toFixed(2)}%`);
+            Object.entries(value).forEach((e) => thirtyDayAccountEntitlements[key][e[0]] *= reduction);
         }
     }
+
+    const testCheckEntitlements = Object.values(thirtyDayAccountEntitlements["0x14975679e5f87c25fa2c54958e735a79B5B93043".toLowerCase()]).reduce((t, c) => t += c, 0);
 
     console.log({
         leakedBera,
         deficientBera,
+        removedAccounts,
+        testCheckEntitlements
     });
+
+    const totalTokensDistributed = Object.values(thirtyDayAccountEntitlements).reduce((t, c) => {
+        const v = Object.values(c).reduce((t2, c2) => t2 += c2, 0);
+        return t + v;
+    }, 0)
 
     writeFileSync('user-allocations-ninety-day.json', JSON.stringify(ninetyDayAccountEntitlements, undefined, 2));
     writeFileSync('user-allocations-thirty-day.json', JSON.stringify(thirtyDayAccountEntitlements, undefined, 2));
@@ -265,6 +283,7 @@ function processData() {
     console.log(`Total TVL: ${thirtyDayTvl.toLocaleString()}`)
     console.log(`Distributed ${((tokensForThirtyDay / 10_000_000) * 100).toFixed(3)}% of Boyco`);
     console.log(`Distributed ${tokensForThirtyDay.toLocaleString()} BERA`);
+    console.log(`Altered Distributed ${totalTokensDistributed.toLocaleString()} BERA`);
     console.log(`Total Claimants: ${Object.keys(thirtyDayAccountEntitlements).length}`);
     console.log('');
     console.table(ninetyDayMarkets.map((s) => ({ ...s, usdValue: s.usdValue.toLocaleString(), tokens: s.tokens.toLocaleString() })));
