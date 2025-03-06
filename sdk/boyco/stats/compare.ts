@@ -4,6 +4,7 @@ import topLevelData from "./top-level-data.json";
 import boycoData from "./boyco-data.json";
 import boycoMarkets from './boyco-markets.json';
 import { writeFileSync } from "fs";
+import ethers from 'ethers';
 
 const { marketAllocations } = topLevelData;
 const { data } = boycoData;
@@ -533,6 +534,7 @@ interface MarketData {
     tvl: number;
     bera: number;
     apr: number;
+    duration: number;
 }
 
 const beraInfo = {
@@ -577,12 +579,12 @@ console.log('');
 
 console.log('Stats Top Level');
 console.log({
-    "totalTvl": "3,015,332,637.399",
-    "totalPoints": "6,482,638,008.316",
-    "bucketOneTvl": "2,515,019,914.938",
-    "bucketOnePoints": "5,282,406,160.923",
-    "bucketTwoTvl": "500,312,722.462",
-    "bucketTwoPoints": "1,200,231,847.393",
+  "totalTvl": "3,015,332,637.399",
+  "totalPoints": "575,862,629,542.245",
+  "bucketOneTvl": "2,515,019,914.938",
+  "bucketOnePoints": "467,841,763,276.866",
+  "bucketTwoTvl": "500,312,722.462",
+  "bucketTwoPoints": "108,020,866,265.378",
 });
 console.log('');
 
@@ -669,7 +671,7 @@ async function compare() {
         marketsIncluded: Object.values(marketAllocations).length,
     })
     Object.values(marketAllocations).forEach((m) => {
-        const { marketId, name, usdValue, amount, duration, tokens, points, bucket } = m;
+        const { marketId, name, usdValue, amount, duration, tokens } = m;
         const durationMultiplier = 365 / duration;
         const emittedBeraUsd = amount * beraPrice * durationMultiplier;
         const apr = (emittedBeraUsd / usdValue) * 100;
@@ -680,6 +682,7 @@ async function compare() {
             tvl: usdValue,
             bera: amount,
             apr,
+            duration,
         });
     })
 
@@ -705,6 +708,7 @@ async function compare() {
             tvl: item.total_value_locked,
             bera,
             apr: apr * 100,
+            duration: Number(item.lockup_time) / (60 * 60 * 24),
         });
     }
 
@@ -725,15 +729,21 @@ async function compare() {
     // const statsMarketData = Object.fromEntries(boycoStatsCalculation.map((s) => [s.id, s]));
 
     console.log('Comparison');
-    console.table(boycoStatsCalculation.map((s) => {
+    console.table(boycoStatsCalculation.filter((s) => {
+      return s.duration === 30
+    }).map((s) => {
         const nonDurationApr = apiMarketData[s.id].apr;
+        const nonDurationTokens = apiMarketData[s.id].bera;
         return {
             name: s.name,
             id: s.id,
             durationApr: `${s.apr.toLocaleString()}%`,
-            nonDurationApr: `${nonDurationApr.toLocaleString()}%`
+            durationAmount: s.bera,
+            nonDurationApr: `${nonDurationApr.toLocaleString()}%`,
+            nonDurationAmount: nonDurationTokens,
+            duration: s.duration
         }
     }));
 }
 
-compare();
+// compare();
