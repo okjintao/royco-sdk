@@ -1,0 +1,134 @@
+Boyco API Top Level
+{
+  majorBucketWeight: '1,151,032,649.185',
+  thirdPartyBucketWeight: '5,122,718,413.603',
+  majorTvl: '480,531,905.903',
+  thirdTvl: '2,449,108,723.836',
+  total: '2,929,640,629.739'
+}
+
+Stats Top Level
+{
+  totalTvl: '3,015,332,637.399',
+  totalPoints: '575,862,629,542.245',
+  bucketOneTvl: '2,515,019,914.938',
+  bucketOnePoints: '467,841,763,276.866',
+  bucketTwoTvl: '500,312,722.462',
+  bucketTwoPoints: '108,020,866,265.378'
+}
+
+┌─────────┬────────────────────────────────────┬──────────────────────────────────────────────────────────────────────┬──────────────────┬──────────────┬──────────┐
+│ (index) │ name                               │ marketId                                                             │ usdValue         │ tokens       │ duration │
+├─────────┼────────────────────────────────────┼──────────────────────────────────────────────────────────────────────┼──────────────────┼──────────────┼──────────┤
+│ 0       │ 'D2 Finance HyperBERA.USDC, Boyco' │ '0xb7b78119806fcb9bbc499131da16b52ce52cf4a1ceabfc59e4f2f6e6ef7046c0' │ '9,995,994.068'  │ '18,907.2'   │ 30       │
+│ 1       │ 'D2 Finance dgnBeraland, Boyco'    │ '0x0964848864e96952ee2454ce58fc93b867f9b2d9a6b44216eec8b08726813d1b' │ '689,723.591'    │ '1,304.597'  │ 30       │
+│ 2       │ 'Supply beraETH on Dolomite'       │ '0x258ac521d801d5112a484ad1b82e6fd2efc24aba29e5cd3d56db83f4a173dc90' │ '962,200.822'    │ '338.1'      │ 30       │
+│ 3       │ 'Supply rswETH on Dolomite'        │ '0xc90525132d909f992363102ebd6298d95b1f312acdb9421fd1f7ac0c0dd78d3f' │ '3,328,766.942'  │ '1,169.67'   │ 30       │
+│ 4       │ 'Supply ylstETH on Dolomite'       │ '0x5bac1cacdd36b3d95a7f9880a264f8481ab56d3d1a53993de084c6fa5febcc15' │ '3,681.273'      │ '1.294'      │ 30       │
+│ 5       │ 'Supply sUSDa on Dolomite'         │ '0x2dd74f8f8a8d7f27b2a82a6edce57b201f9b4a3c4780934caf99363115e48be6' │ '21,099,972.35'  │ '7,414.16'   │ 30       │
+│ 6       │ 'Supply stBTC on Dolomite'         │ '0xc6887dddd833a3d585c7941cd31b0f8ff3ec5903d49cd5e7ac450b46532d3e79' │ '24,408,499.677' │ '8,576.718'  │ 30       │
+│ 7       │ 'Suppy uniBTC on Dolomite'         │ '0xd10bdc88272e0958baa62a4ae2bfce1d8feed639a93e03c0aa5cec7adfbdf2c3' │ '5,985,778.99'   │ '2,103.298'  │ 30       │
+│ 8       │ 'Supply pumpBTC on Dolomite'       │ '0xff917303af9337534eece4b88948d609980b66ca0b41875da782aec4858cade5' │ '242,391.097'    │ '85.172'     │ 30       │
+│ 9       │ 'Supply solvBTC.bbn on Dolomite'   │ '0x2a3a73ba927ec6bbf0e2e12e21a32e274a295389ce9d6ae2b32435d12c597c2c' │ '38,462,683.039' │ '13,515.112' │ 30       │
+│ 10      │ 'Supply ylBTCLST on Dolomite'      │ '0x0194c329e2b9712802c37d3f17502bcefce2e128933f24f4fe847dfc7e5e8965' │ '1,409.499'      │ '0.495'      │ 30       │
+│ 11      │ 'Supply ylpumpBTC on Dolomite'     │ '0x6306bfce6bff30ec4efcea193253c43e057f1474007d0d2a5a0c2938bd6a9b81' │ '95,142.871'     │ '33.432'     │ 30       │
+│ 12      │ 'Supply USDa on Dolomite'          │ '0x86a5077c6a9190cde78ec75b8888c46ed0a3d1289054127a955a2af544633cf3' │ '2,788,206.983'  │ '979.727'    │ 30       │
+└─────────┴────────────────────────────────────┴──────────────────────────────────────────────────────────────────────┴──────────────────┴──────────────┴──────────┘
+Total TVL: 108,064,451.203
+Distributed 0.544% of Boyco
+Distributed 54,428.974 BERA
+
+┌─────────┬───────────────────────────────────────────────────────┬──────────────────────────────────────────────────────────────────────┬───────────────────┬─────────────────┬──────────┐
+│ (index) │ name                                                  │ marketId                                                             │ usdValue          │ tokens          │ duration │
+├─────────┼───────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────────────┼───────────────────┼─────────────────┼──────────┤
+│ 0       │ 'Lend wETH on Dahlia (STONE&#x2F;wETH)'               │ '0x4dd921e829db80e73c56d888eeaf46a7934a3c4a2f7f78231dd4502f8eaa2558' │ '1,182,148.392'   │ '6,708.022'     │ 90       │
+│ 1       │ 'Infrared x Kodiak WETH-beraETH LP'                   │ '0xaf2a845c9d6007128b7aec375a4fcdee2b12bbaeb78caf928d3bd08e104417d6' │ '26,626,824.898'  │ '75,504.524'    │ 90       │
+│ 2       │ 'Infrared x Kodiak USDC-HONEY LP'                     │ '0x72bec627884d7bdf538f174bedd551e9eccf3995adc880f40972e2bab87df3b9' │ '7,614,582.029'   │ '38,887.593'    │ 90       │
+│ 3       │ 'Provide NECT-HONEY Liquidity on Kodiak'              │ '0x62bb6fb784e059f338340a9724b35ef2ef8fde5e65613e9fcaacd097d81dc67e' │ '7,268,987.74'    │ '20,612.351'    │ 90       │
+│ 4       │ 'THJ&#x2F;Set and Forgetti - USDC Vault, Henlo Boyco' │ '0xaa449e0679bd82798c7896c6a031f2da55299e64c0b4bddd57ad440921c04628' │ '41,983,175.086'  │ '214,407.649'   │ 90       │
+│ 5       │ 'Infrared x Kodiak WBTC-HONEY LP'                     │ '0x6262ac035c2284f5b5249a690a6fd81c35f1ecef501da089f25741a4492cf5f3' │ '30,344,695.729'  │ '482,129.053'   │ 90       │
+│ 6       │ 'Supply USDe to Concrete x Ethena Vault'              │ '0x5043bfe3f6bab5fa4c8f19fb2f6856de2d2e717a541e0d7126b308926be04e2e' │ '55,769,654.414'  │ '158,143.573'   │ 90       │
+│ 7       │ 'Supply wETH on Dolomite x Infrared'                  │ '0x0a7565b14941c6a3dde083fb7a857e27e12c55fa34f709c37586ec585dbe7f3f' │ '128,586,107.941' │ '729,653.274'   │ 90       │
+│ 8       │ 'Infrared x Kodiak WETH-STONE LP'                     │ '0x7ecf55915abe3c24dc5d8365a8edabc8833f4efb8e7c027429c9528aed91ecb7' │ '278,783,626.667' │ '790,534.553'   │ 90       │
+│ 9       │ 'Supply USDC on Dolomite'                             │ '0x1e0a98a276ba873cfa427e247c7d0e438f604a54fcb36481063e1220af021faf' │ '29,271,755.639'  │ '166,100.621'   │ 90       │
+│ 10      │ 'Provide USDe-USDa Liquidity on Kodiak'               │ '0xab689b5eac7541b8cc774f0ca3705a91b21660e8221fc7bd8e93c391fb5d690d' │ '3,849.56'        │ '5.555'         │ 90       │
+│ 11      │ 'Veda x Ether.fi eBTC Vault - LBTC Supply'            │ '0xabf4b2f17bc32faf4c3295b1347f36d21ec5629128d465b5569e600bf8d46c4f' │ '295,395,060.954' │ '837,638.871'   │ 90       │
+│ 12      │ 'Supply USDT on Dolomite x Infrared'                  │ '0x9c7bd5b59ebcb9a9e6787b9b174a98a69e27fa5a4fe98270b461a1b9b1b1aa3e' │ '3,082,632.61'    │ '17,492.193'    │ 90       │
+│ 13      │ 'Provide rUSD-HONEY Liquidity on Kodiak'              │ '0xcdb30c06ea11f3f5408bce5eefdb392dfe0008ef81af3a486bcfed891f9cc112' │ '16,993,617.81'   │ '48,188.06'     │ 90       │
+│ 14      │ 'Restake LBTC on SatLayer'                            │ '0xde894ab596c084e65d0123ab6fa66f95b0571091cd8ec7efbeabe4942e7c40cd' │ '117,459,944.311' │ '123,820.087'   │ 90       │
+│ 15      │ 'Supply LBTC to Concrete x Lombard Vault'             │ '0xa31a8bb230f77a5d286985b92fe8d0c7504a1892568d70685659f781aec78209' │ '235,254,302.868' │ '667,100.351'   │ 90       │
+│ 16      │ 'Veda x Ether.fi weETH Vault'                         │ '0xff0182973d5f1e9a64392c413caaa75f364f24632a7de0fdd1a31fe30517fdd2' │ '141,076,180.05'  │ '400,043.562'   │ 90       │
+│ 17      │ 'Origami USDC Boyco Vault'                            │ '0xa655556eb64a0fd18b9a3c80794ab370743bc431a4b2a6116fa97dcc7f741a2b' │ '68,972,359.07'   │ '352,241.137'   │ 90       │
+│ 18      │ 'Infrared x Kodiak, WBTC-WETH LP'                     │ '0xab37ea8895eed81c4aa76d5dba64441756904b15e78f6ffa5183b0fc1563c1c5' │ '89,903,634.529'  │ '1,428,426.061' │ 90       │
+│ 19      │ 'Infrared x Kodiak WETH-HONEY LP'                     │ '0x17ffd16948c053cc184c005477548e559566879a0e2847e87ebd1111c602535c' │ '41,621,949.663'  │ '661,306.719'   │ 90       │
+│ 20      │ 'Supply STONE on Dolomite'                            │ '0xb27f671bc0dd8773a25136253acd72150dd59e50e44dc8439e9dc5c84c2b19f6' │ '2,338,014.889'   │ '2,464.612'     │ 90       │
+│ 21      │ 'Supply uniBTC into Goldilocks'                       │ '0x72679855f582a6d908bf39d40cb5a299b6a98a82bf1bfd9055f1853fc5160f54' │ '19,135,800'      │ '27,615.403'    │ 90       │
+│ 22      │ 'Beraborrow STONE Boyco'                              │ '0x88ee202388086447b8dc8403c5aa2cfbcdb52e749fd16af5c6a3c7bb614b17c9' │ '2,942,348.684'   │ '4,246.185'     │ 90       │
+│ 23      │ 'Infrared x Kodiak USDe-HONEY LP'                     │ '0x5f7935e257b94aee6caf9bbe917d4cfad75e8bc3b231806769ca0935af8371e8' │ '20,268,740.058'  │ '57,475.181'    │ 90       │
+│ 24      │ 'Supply HONEY on Dolomite x Infrared'                 │ '0x9778047cb8f3740866882a97a186dff42743bebb3ad8010edbf637ab0e37751f' │ '11,135,590.323'  │ '63,188.163'    │ 90       │
+│ 25      │ 'Beraborrow SBTC Boyco'                               │ '0xe92ebafbee7aa7a636ff62e04aa2ab9353f60ef72dcdcfdfcf48b67a7ad8ffc7' │ '8,629,534.536'   │ '12,453.52'     │ 90       │
+│ 26      │ 'Supply WBTC to Concrete x Lombard Vault'             │ '0xece925dbccbb21333dbe99679fef655ad2dc2cb185e0963711c944e302595b28' │ '118,383,708.551' │ '335,695.511'   │ 90       │
+│ 27      │ 'Lend USDC on Dahlia (WBERA&#x2F;USDC)'               │ '0x20ca89af1fd136d0ef9c4e3e74e8ab1943d28e6879206a3e180fd35e29fb2d7d' │ '36,399.477'      │ '206.546'       │ 90       │
+│ 28      │ 'Supply wBTC on Dolomite x Infrared'                  │ '0xa6905c68ad66ea9ce966aa1662e1417df08be333ab8ec04507e0f0301d3a78e9' │ '19,564,643.619'  │ '111,018.262'   │ 90       │
+│ 29      │ 'BurrBear USDC Stable Pool'                           │ '0x71cee3cf3329e9a2803d578cdd6c823d7a16aa39adea3a7053395299bd258800' │ '2,474,730.332'   │ '12,638.423'    │ 90       │
+│ 30      │ 'Kodiak x Beraborrow WBTC-WETH to mint NECT, Boyco'   │ '0x568d2509ec17c27426a9d55e58673160c937aeaedc0a3fcc7c63c5b7df495ec7' │ '10,796,832'      │ '171,544.524'   │ 90       │
+│ 31      │ 'Beraborrow WETH Boyco'                               │ '0xb9f307d83c78d09a134aac7713821aab8e1da2404b895db66f0975135dd5006e' │ '622,379.472'     │ '898.173'       │ 90       │
+│ 32      │ 'D2 Finance Kodiak++, Boyco'                          │ '0x027987432679079fbbc990691d14dabe7f7780f51df6a1a53e7bd875b1f9581a' │ '256,340.369'     │ '1,454.586'     │ 90       │
+│ 33      │ 'Supply rsETH into Goldilocks'                        │ '0xab32e1695b84b148140cb78c044d247e307b26cb043dc5538657f3a5634dee6e' │ '1,896,293.324'   │ '2,736.593'     │ 90       │
+│ 34      │ 'Provide beraETH-ylstETH Liquidity on Kodiak'         │ '0x219169d9e78064768cddd0397c2202dc9e5c2bc0e1dbc13465363b0458d33c34' │ '19,357.905'      │ '27.936'        │ 90       │
+│ 35      │ 'Beraborrow uniBTC Boyco'                             │ '0xb32d047eb63b5c2af537c2e4df6a09c40a50b75aefd83a928600241a4666b087' │ '52,722,763.317'  │ '76,085.68'     │ 90       │
+│ 36      │ 'Supply sUSDe to Concrete x Ethena Vault'             │ '0x3d7cf2bd0a04fd3c66a5fa334a399b3926efe0fc0450b8da49a5da29f2c36d7f' │ '49,456,054.242'  │ '140,240.373'   │ 90       │
+│ 37      │ 'Kodiak x Beraborrow WBTC-HONEY to mint NECT, Boyco'  │ '0xcdd60ed30d20f9edc3fac624bb623db32103658b6da678949ef53df16139b488' │ '512,519.345'     │ '8,143.119'     │ 90       │
+│ 38      │ 'Provide USDa-HONEY Liquidity on Kodiak'              │ '0xfa4917a871f9cf06d3d00be6678993888b3aac41c3da21edf32c3c9cf3978d70' │ '1,153,888.011'   │ '3,272.03'      │ 90       │
+│ 39      │ 'Supply sUSDe on Dolomite'                            │ '0x092c0c4d8d124fc29364e8cd8417198c4bbe335e3f6c4b1f79215a3457b4831a' │ '30,229.348'      │ '31.866'        │ 90       │
+│ 40      │ 'Veda x Ether.fi eBTC Vault - wBTC Supply'            │ '0xb36f14fd392b9a1d6c3fabedb9a62a63d2067ca0ebeb63bbc2c93b11cc8eb3a2' │ '123,938,630.724' │ '351,447.361'   │ 90       │
+│ 41      │ 'Beraborrow beraETH Boyco'                            │ '0xd77d3e3e075394a6c94a8c83dab114bb7266b96c5234e4a98476f41339029c30' │ '246,904.508'     │ '356.315'       │ 90       │
+│ 42      │ 'Supply solvBTC.bbn into Goldilocks'                  │ '0xbd3ef685577bdca03225bb2cd2158f0772cdfd694ba03b9eb4856b59a7288081' │ '54,675.529'      │ '78.904'        │ 90       │
+│ 43      │ 'Infrared x Kodiak beraETH-STONE LP'                  │ '0x1997c604de34a71974228bca4a66f601427c48960b6e59ff7ebc8e34f43f3ecf' │ '86,714,250.036'  │ '125,139.736'   │ 90       │
+│ 44      │ 'Veda x Ether.fi weETH Vault - wETH Supply'           │ '0x0484203315d701daff0d6dbdd55c49c3f220c3c7b917892bed1badb8fdc0182e' │ '108,009,184.503' │ '306,276.927'   │ 90       │
+│ 45      │ 'Beraborrow SolvBTC.BBN Boyco'                        │ '0x54b4b37c355868591a91baed36a3c8083f6480ccb11145106d0dad912d7dffd2' │ '94,574,198.909'  │ '136,482.646'   │ 90       │
+│ 46      │ 'Lend USDC on Dahlia (sUSDe&#x2F;USDC)'               │ '0x7e804adb4c426b81fbe1f005f92d8dee99f98b0502c3946ac5ad436b453c6435' │ '653,906.866'     │ '3,710.551'     │ 90       │
+│ 47      │ 'Kodiak x Beraborrow WETH-HONEY to mint NECT, Boyco'  │ '0xf8663b3c0f78b4efae0422b163e86e79afa1ce90778885d93d53c9d4f6d5c3d8' │ '203,311.063'     │ '3,230.29'      │ 90       │
+│ 48      │ 'Supply USDe on Dolomite'                             │ '0xa588ad19850cf2a111c3c727033da8e557abc94de70fce2d2b2f2f78140f15e5' │ '750,526.948'     │ '791.166'       │ 90       │
+│ 49      │ 'Restake solvBTC.bbn on SatLayer'                     │ '0x7dadff589e53d9813969d0be6de99c033d140ec1d304e57a754797736656dcd5' │ '145,043,542.886' │ '152,897.264'   │ 90       │
+│ 50      │ 'Infrared x Kodiak MIM-HONEY LP'                      │ '0x9a117f13c7d5d2b4b18e444f72e6e77c010a1fd90cf21135be75669d66ad9428' │ '3,925,176.891'   │ '11,130.453'    │ 90       │
+│ 51      │ 'Infrared x Kodiak USDT0-HONEY LP, Boyco'             │ '0xf8f745f188ddb10c16724faee95583521191c3c69e15490fa53c1136b73c17d7' │ '1,429,690.719'   │ '7,301.416'     │ 90       │
+│ 52      │ 'Provide rsETH-beraETH Liquidity on Kodiak'           │ '0x25f7a422282a1f26d9d96b5d1c43fa5c6f8c355b0ed7a4755ac8d04a504817f5' │ '4,726,408.189'   │ '6,820.811'     │ 90       │
+│ 53      │ 'Supply rsETH on Dolomite'                            │ '0x415f935bbb9bf1bdc1f49f2ca763d5b2406efbf9cc949836880dd5bbd054db95' │ '2,517,086.909'   │ '2,653.38'      │ 90       │
+│ 54      │ 'Beraborrow stBTC Boyco'                              │ '0x84790e638ddd7a59e64b8c239e96e29c2c6c155a9882a0c834b9ced016b7c999' │ '17,464.309'      │ '25.203'        │ 90       │
+│ 55      │ 'Provide WBTC-uniBTC Liquidity on Kodiak'             │ '0x568f3bb6ba4c6afe37899fda35bc315ae8167274685ea295e03cf20d471afd8b' │ '903,026.806'     │ '2,560.674'     │ 90       │
+│ 56      │ 'Beraborrow pumpBTC Boyco'                            │ '0xfe95d44ab171140b66fb5180e9de765578d9d2bfbdbb66307abb86ba05a59e93' │ '204,651,429.284' │ '295,338.146'   │ 90       │
+│ 57      │ 'Provide WBTC-stBTC Liquidity on Kodiak'              │ '0x9b60d30f266858fa671bf268796aa503700310e31a8f46ebaa8f8281fbad89aa' │ '13,447.562'      │ '38.133'        │ 90       │
+│ 58      │ 'Restake pumpBTC on Satlayer'                         │ '0x036d9e250c6dafef1dd361199181548f9990a00452abf5231cebe7a15f9e19bd' │ '117,036.207'     │ '123.373'       │ 90       │
+│ 59      │ 'Provide WBTC-FBTC Liquidity on Kodiak'               │ '0xd6e9ff1fa0c9c6bb25cafcb76c61c0d398a479ba073509e10209271f40a01712' │ '12,947.728'      │ '36.715'        │ 90       │
+│ 60      │ 'Beraborrow ylpumpBTC Boyco'                          │ '0x897eec875e51d6c8b5339d6a9984a00acb0aa86f9d4ab4eddbb4a791bb0a88e9' │ '715.159'         │ '1.032'         │ 90       │
+│ 61      │ 'Provide WBTC-pumpBTC.bera Liquidity on Kodiak'       │ '0xa74b61544834483b093531cff533d01788a5dea12d8a83902646111025303bfb' │ '2,615,561.752'   │ '7,416.834'     │ 90       │
+│ 62      │ 'Provide WBTC-waBTC Liquidity on Kodiak'              │ '0x49104b3cadbb31470e5b949c6892a33954ee9ce35041df4a04a88eb694b645c0' │ '1,962,058.893'   │ '5,563.725'     │ 90       │
+│ 63      │ 'Provide pumpBTC.bera-ylpumpBTC Liquidity on Kodiak'  │ '0xaa636d73f39ea0de0e04ed9270eac5d943707e7f8fb9c3480c0d80eb015ccfc8' │ '2,325,448.825'   │ '3,355.92'      │ 90       │
+│ 64      │ 'Infrared x Kodiak sUSDe-HONEY LP, Boyco'             │ '0xad9ee12ea8b3dccf85934c2918bd4ad38ccf7bc8b43d5fcb6f298858aa4c9ca4' │ '14,442,552.48'   │ '40,954.115'    │ 90       │
+│ 65      │ 'Supply NECT on Dolomite'                             │ '0xbe5cd829fcb3cdfe8224ad72fc3379198d38da26131c5b7ab6664c8f56a9730d' │ '99,489.223'      │ '104.876'       │ 90       │
+│ 66      │ 'Provide pumpBTC.bera-FBTC Liquidity on Kodiak'       │ '0xab27dc8061f66791bb94a536546b08ba15e06344dabad2cc6267cf44f0070574' │ '1,734.692'       │ '2.503'         │ 90       │
+│ 67      │ 'Restake uniBTC on SatLayer'                          │ '0xdd3f0e11d59726f2e63fc1b180abc94034dd3e0f4018b51371b73348d82b3769' │ '388,175.953'     │ '409.195'       │ 90       │
+│ 68      │ 'Provide beraETH-RSWETH Liquidity on Kodiak'          │ '0x3ef317447bd10825f0a053565f8474a460cfb22cda414ea30b671e304f0691b6' │ '198,274.355'     │ '286.135'       │ 90       │
+│ 69      │ 'Beraborrow SolvBTC Boyco'                            │ '0x28b337bd45eda5e2fc596bfe22320bef0af9da85d4c770d0fd03ddf72428c00a' │ '38,927,514.855'  │ '56,177.375'    │ 90       │
+│ 70      │ 'Beraborrow RSETH Boyco'                              │ '0xfef8ead03d79cf7cbe6f73c8d1136f8c84f6cf6ed9bc208719e7fcee807cb336' │ '1,663,743.837'   │ '2,400.995'     │ 90       │
+│ 71      │ 'Supply SBTC on Dolomite'                             │ '0x42a09eccabf1080c40a24522e9e8adbee5a0ad907188c9b6e50ba26ba332eac3' │ '2,355,037.633'   │ '2,482.557'     │ 90       │
+│ 72      │ 'Supply solvBTC on Dolomite'                          │ '0xb1d5ccc4388fe639f8d949061bc2de95ecb1efb11c5ceb93bdb71caab58c8aa3' │ '29,362,580.864'  │ '30,952.486'    │ 90       │
+│ 73      │ 'Beraborrow ylstETH Boyco'                            │ '0xc182b0267a6ca015c2d2a144ca19e1f6b36479675754914002e0613320ed8d9a' │ '4,268,170.941'   │ '6,159.516'     │ 90       │
+│ 74      │ 'Provide WBTC-SolvBTC Liquidity on Kodiak'            │ '0x290aad1fabd8d2557d28a3854a2433ddc11a35f0d12936dd99102067ac515d07' │ '2,104,922.324'   │ '5,968.836'     │ 90       │
+│ 75      │ 'Provide USDe-NECT Liquidity on Kodiak'               │ '0x2240151f263be555a4ef61476a5c111373e0efe8cd539f179b4b5850977e9d4e' │ '113,458.211'     │ '163.735'       │ 90       │
+│ 76      │ 'Provide FBTC-SolvBTC Liquidity on Kodiak'            │ '0xc5165360e2e8b195cb55e21cf259ce6a5ee996b055057d8705851d9b01fc8620' │ '1,744.868'       │ '2.518'         │ 90       │
+│ 77      │ 'Restake SBTC on SatLayer'                            │ '0x7ccce28638cbb503d17e8d9290a97f18731199655ccde282da7b464f21361b79' │ '2,346,771.846'   │ '2,473.843'     │ 90       │
+│ 78      │ 'Restake waBTC on SatLayer'                           │ '0x2dcd8ec59fe12b4cb802f5a26445f9684635c52139560f169a7c4d67da186c18' │ '14,602,067.436'  │ '15,392.73'     │ 90       │
+│ 79      │ 'Beraborrow ylrsETH Boyco'                            │ '0x6b3dfac03cea102e59d2d5711088f3001782e07239dcc90f274dd9762220c49a' │ '7,734.235'       │ '11.161'        │ 90       │
+│ 80      │ 'Beraborrow ylBTCLST Boyco'                           │ '0x4fa4a76aa8b93ccdddba0c20c336056803b7410fb375c9c9541e9c54fbfb2f9a' │ '9,284.77'        │ '13.399'        │ 90       │
+│ 81      │ 'Provide rsETH-ylrsETH Liquidity on Kodiak'           │ '0x460ec133419318efe4e05b4c3b6db421503fd6fcefbb20a43f50e3fc50f2ee39' │ '5,790.447'       │ '8.356'         │ 90       │
+│ 82      │ 'Provide pumpBTC.bera-ylBTCLST Liquidity on Kodiak'   │ '0x2fa37184f43783f5d6b23548c4a7a21bb86cd2f314bba9d5bb7d2415d61d11c8' │ '18,936,652.812'  │ '27,328.008'    │ 90       │
+│ 83      │ 'Provide sUSDa-USDa Liquidity on Kodiak'              │ '0xd70673b98af7096f575717d70fbf2fa935dd719926b55c0e011480678cdac563' │ '20,017,925.22'   │ '28,888.422'    │ 90       │
+│ 84      │ 'Provide WBTC-SBTC Liquidity on Kodiak'               │ '0x289dc2a22ebb4ef7404de9293b6718d9f81f0843e1af4cf9a9c51d2e757348d6' │ '3,894,021.36'    │ '11,042.106'    │ 90       │
+│ 85      │ 'Provide uniBTC-ylBTCLST Liquidity on Kodiak'         │ '0x21c6a0baa6f41b060937be5a4f1be096b63f426c50f763b4dabd1af46803fa2f' │ '9,483,988.303'   │ '13,686.606'    │ 90       │
+│ 86      │ 'Provide SolvBTC-SolvBTC.BBN Liquidity on Kodiak'     │ '0x378d4d32d89450978d01cfdf1ff1907d4419aa186c48abb94e612b76d75f3fae' │ '19,058,660.564'  │ '27,504.081'    │ 90       │
+└─────────┴───────────────────────────────────────────────────────┴──────────────────────────────────────────────────────────────────────┴───────────────────┴─────────────────┴──────────┘
+Total TVL: 2,907,268,186.196
+Distributed 99.456% of Boyco
+Distributed 9,945,571.026 BERA
