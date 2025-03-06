@@ -241,16 +241,15 @@ function processData() {
         const amount = Object.values(value).reduce((t, c) => t += c, 0);
         const claimed = claims[key];
 
-        console.log({
-            key,
-            amount,
-            claimed,
-        })
-
         if (claimed > amount) {
             leakedBera += claimed - amount;
         } else if (claimed > 0) {
             deficientBera += amount - claimed;
+            console.log({
+                key,
+                amount,
+                claimed,
+            })
         }
     }
 
