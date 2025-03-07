@@ -790,4 +790,4 @@ async function compare() {
   writeFileSync("./boyco-comparison.csv", csv);
 }
 
-compare();
+// compare();

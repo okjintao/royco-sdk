@@ -1,10 +1,10 @@
 {
   "totalTvl": "3,015,332,637.399",
-  "totalPoints": "576,632,982,146.502",
+  "totalPoints": "6,482,638,008.316",
   "bucketOneTvl": "2,515,019,914.938",
-  "bucketOnePoints": "469,573,830,470.423",
+  "bucketOnePoints": "5,282,406,160.923",
   "bucketTwoTvl": "500,312,722.462",
-  "bucketTwoPoints": "107,059,151,676.078",
+  "bucketTwoPoints": "1,200,231,847.393",
   "marketAllocations": {
     "0x1e0a98a276ba873cfa427e247c7d0e438f604a54fcb36481063e1220af021faf": {
       "name": "Supply USDC on Dolomite",
@@ -13,10 +13,11 @@
       "usdValue": 29271755.639494345,
       "multiplier": 1.5,
       "duration": 90,
-      "points": 3951687011.3317366,
+      "points": 43907633.45924152,
       "bucket": "Two",
-      "amount": 166100.6207558639,
-      "weight": 3.6911249056858644
+      "amount": 164621.8195224036,
+      "weight": 3.6582626560534135,
+      "apr": 15.395463001697996
     },
     "0xe92ebafbee7aa7a636ff62e04aa2ab9353f60ef72dcdcfdfcf48b67a7ad8ffc7": {
       "name": "Beraborrow SBTC Boyco",
@@ -25,10 +26,11 @@
       "usdValue": 8629534.535552638,
       "multiplier": 1.369,
       "duration": 90,
-      "points": 1063244950.1254405,
+      "points": 11813832.779171562,
       "bucket": "One",
-      "amount": 12453.520290582419,
-      "weight": 0.22642764164695306
+      "amount": 12300.470336058303,
+      "weight": 0.22364491520106006,
+      "apr": 3.902010868168245
     },
     "0x2fa37184f43783f5d6b23548c4a7a21bb86cd2f314bba9d5bb7d2415d61d11c8": {
       "name": "Provide pumpBTC.bera-ylBTCLST Liquidity on Kodiak",
@@ -37,10 +39,11 @@
       "usdValue": 18936652.81230248,
       "multiplier": 1.369,
       "duration": 90,
-      "points": 2333184993.0037885,
+      "points": 25924277.7000421,
       "bucket": "One",
-      "amount": 27328.008140200473,
-      "weight": 0.49687287527637225
+      "amount": 26992.155280486957,
+      "weight": 0.4907664596452174,
+      "apr": 3.902010868168245
     },
     "0xabf4b2f17bc32faf4c3295b1347f36d21ec5629128d465b5569e600bf8d46c4f": {
       "name": "Veda x Ether.fi eBTC Vault - LBTC Supply",
@@ -49,10 +52,11 @@
       "usdValue": 295395060.95393693,
       "multiplier": 2.69,
       "duration": 90,
-      "points": 71515144256.94814,
+      "points": 794612713.9660903,
       "bucket": "One",
-      "amount": 837638.8714404508,
-      "weight": 15.22979766255365
+      "amount": 827344.5459653847,
+      "weight": 15.042628108461539,
+      "apr": 7.667209083544615
     },
     "0xff917303af9337534eece4b88948d609980b66ca0b41875da782aec4858cade5": {
       "name": "Supply pumpBTC on Dolomite",
@@ -61,10 +65,11 @@
       "usdValue": 242391.09717261934,
       "multiplier": 1,
       "duration": 30,
-      "points": 7271732.91517858,
+      "points": 242391.09717261934,
       "bucket": "One",
-      "amount": 85.17197603072414,
-      "weight": 0.0015485813823768024
+      "amount": 252.37571550471083,
+      "weight": 0.004588649372812924,
+      "apr": 8.550790799492134
     },
     "0xad9ee12ea8b3dccf85934c2918bd4ad38ccf7bc8b43d5fcb6f298858aa4c9ca4": {
       "name": "Infrared x Kodiak sUSDe-HONEY LP, Boyco",
@@ -73,10 +78,11 @@
       "usdValue": 14442552.48016149,
       "multiplier": 2.69,
       "duration": 90,
-      "points": 3496541955.447097,
+      "points": 38850466.171634406,
       "bucket": "One",
-      "amount": 40954.11521483911,
-      "weight": 0.7446202766334384
+      "amount": 40450.8016677494,
+      "weight": 0.7354691212318073,
+      "apr": 7.6672090835446145
     },
     "0x3d7cf2bd0a04fd3c66a5fa334a399b3926efe0fc0450b8da49a5da29f2c36d7f": {
       "name": "Supply sUSDe to Concrete x Ethena Vault",
@@ -85,10 +91,11 @@
       "usdValue": 49456054.24173746,
       "multiplier": 2.69,
       "duration": 90,
-      "points": 11973310731.924639,
+      "points": 133036785.91027378,
       "bucket": "One",
-      "amount": 140240.37276441325,
-      "weight": 2.5498249593529683
+      "amount": 138516.86148621907,
+      "weight": 2.5184883906585283,
+      "apr": 7.667209083544615
     },
     "0x42a09eccabf1080c40a24522e9e8adbee5a0ad907188c9b6e50ba26ba332eac3": {
       "name": "Supply SBTC on Dolomite",
@@ -97,10 +104,11 @@
       "usdValue": 2355037.6325933468,
       "multiplier": 1,
       "duration": 90,
-      "points": 211953386.9334012,
+      "points": 2355037.6325933468,
       "bucket": "One",
-      "amount": 2482.556634312127,
-      "weight": 0.045137393351129575
+      "amount": 2452.0467727533555,
+      "weight": 0.04458266859551555,
+      "apr": 2.8502635998307118
     },
     "0x092c0c4d8d124fc29364e8cd8417198c4bbe335e3f6c4b1f79215a3457b4831a": {
       "name": "Supply sUSDe on Dolomite",
@@ -109,10 +117,11 @@
       "usdValue": 30229.347958818995,
       "multiplier": 1,
       "duration": 90,
-      "points": 2720641.3162937094,
+      "points": 30229.347958818995,
       "bucket": "One",
-      "amount": 31.86618646236059,
-      "weight": 0.0005793852084065562
+      "amount": 31.47456077941137,
+      "weight": 0.000572264741443843,
+      "apr": 2.850263599830712
     },
     "0x0964848864e96952ee2454ce58fc93b867f9b2d9a6b44216eec8b08726813d1b": {
       "name": "D2 Finance dgnBeraland, Boyco",
@@ -121,10 +130,11 @@
       "usdValue": 689723.5907046596,
       "multiplier": 1.5,
       "duration": 30,
-      "points": 31037561.581709683,
+      "points": 1034585.3860569894,
       "bucket": "Two",
-      "amount": 1304.5968040198993,
-      "weight": 0.028991040089331094
+      "amount": 3878.94576149475,
+      "weight": 0.08619879469988334,
+      "apr": 46.18638900509399
     },
     "0xbd3ef685577bdca03225bb2cd2158f0772cdfd694ba03b9eb4856b59a7288081": {
       "name": "Supply solvBTC.bbn into Goldilocks",
@@ -133,10 +143,11 @@
       "usdValue": 54675.529003179996,
       "multiplier": 1.369,
       "duration": 90,
-      "points": 6736571.928481807,
+      "points": 74850.79920535341,
       "bucket": "One",
-      "amount": 78.9037701899439,
-      "weight": 0.0014346140034535255
+      "amount": 77.93406699297039,
+      "weight": 0.0014169830362358252,
+      "apr": 3.902010868168245
     },
     "0xc182b0267a6ca015c2d2a144ca19e1f6b36479675754914002e0613320ed8d9a": {
       "name": "Beraborrow ylstETH Boyco",
@@ -145,10 +156,11 @@
       "usdValue": 4268170.940991017,
       "multiplier": 1.369,
       "duration": 90,
-      "points": 525881341.6395032,
+      "points": 5843126.018216702,
       "bucket": "One",
-      "amount": 6159.515695582289,
-      "weight": 0.11199119446513252
+      "amount": 6083.817132035372,
+      "weight": 0.11061485694609768,
+      "apr": 3.9020108681682437
     },
     "0x0484203315d701daff0d6dbdd55c49c3f220c3c7b917892bed1badb8fdc0182e": {
       "name": "Veda x Ether.fi weETH Vault - wETH Supply",
@@ -157,10 +169,11 @@
       "usdValue": 108009184.50255945,
       "multiplier": 2.69,
       "duration": 90,
-      "points": 26149023568.06964,
+      "points": 290544706.31188494,
       "bucket": "One",
-      "amount": 306276.9266343129,
-      "weight": 5.568671393351144
+      "amount": 302512.876903843,
+      "weight": 5.500234125524418,
+      "apr": 7.667209083544617
     },
     "0x219169d9e78064768cddd0397c2202dc9e5c2bc0e1dbc13465363b0458d33c34": {
       "name": "Provide beraETH-ylstETH Liquidity on Kodiak",
@@ -169,10 +182,11 @@
       "usdValue": 19357.90480739831,
       "multiplier": 1.369,
       "duration": 90,
-      "points": 2385087.4513195455,
+      "points": 26500.971681328287,
       "bucket": "One",
-      "amount": 27.935928561256908,
-      "weight": 0.0005079259738410347
+      "amount": 27.592604545546855,
+      "weight": 0.0005016837190099429,
+      "apr": 3.9020108681682437
     },
     "0x2a3a73ba927ec6bbf0e2e12e21a32e274a295389ce9d6ae2b32435d12c597c2c": {
       "name": "Supply solvBTC.bbn on Dolomite",
@@ -181,10 +195,11 @@
       "usdValue": 38462683.0392032,
       "multiplier": 1,
       "duration": 30,
-      "points": 1153880491.176096,
+      "points": 38462683.0392032,
       "bucket": "One",
-      "amount": 13515.111553620243,
-      "weight": 0.24572930097491352
+      "amount": 40047.0449017231,
+      "weight": 0.7281280891222381,
+      "apr": 8.550790799492136
     },
     "0xc5165360e2e8b195cb55e21cf259ce6a5ee996b055057d8705851d9b01fc8620": {
       "name": "Provide FBTC-SolvBTC Liquidity on Kodiak",
@@ -193,10 +208,11 @@
       "usdValue": 1744.8680484863821,
       "multiplier": 1.369,
       "duration": 90,
-      "points": 214985.19225400712,
+      "points": 2388.7243583778572,
       "bucket": "One",
-      "amount": 2.518067406380978,
-      "weight": 0.000045783043752381416
+      "amount": 2.487121128297125,
+      "weight": 0.00004522038415085681,
+      "apr": 3.902010868168245
     },
     "0x62bb6fb784e059f338340a9724b35ef2ef8fde5e65613e9fcaacd097d81dc67e": {
       "name": "Provide NECT-HONEY Liquidity on Kodiak",
@@ -205,10 +221,11 @@
       "usdValue": 7268987.739762398,
       "multiplier": 2.69,
       "duration": 90,
-      "points": 1759821931.7964766,
+      "points": 19553577.01996085,
       "bucket": "One",
-      "amount": 20612.351023020376,
-      "weight": 0.37477001860037046
+      "amount": 20359.03153478747,
+      "weight": 0.3701642097234086,
+      "apr": 7.6672090835446145
     },
     "0xab37ea8895eed81c4aa76d5dba64441756904b15e78f6ffa5183b0fc1563c1c5": {
       "name": "Infrared x Kodiak, WBTC-WETH LP",
@@ -217,10 +234,11 @@
       "usdValue": 89903634.52948248,
       "multiplier": 4.2,
       "duration": 90,
-      "points": 33983573852.14438,
+      "points": 377595265.0238264,
       "bucket": "Two",
-      "amount": 1428426.06111197,
-      "weight": 31.74280135804378
+      "amount": 1415708.7201925525,
+      "weight": 31.460193782056724,
+      "apr": 43.10729640475438
     },
     "0x460ec133419318efe4e05b4c3b6db421503fd6fcefbb20a43f50e3fc50f2ee39": {
       "name": "Provide rsETH-ylrsETH Liquidity on Kodiak",
@@ -229,10 +247,11 @@
       "usdValue": 5790.446641317596,
       "multiplier": 1.369,
       "duration": 90,
-      "points": 713440.930676741,
+      "points": 7927.121451963789,
       "bucket": "One",
-      "amount": 8.356353919448734,
-      "weight": 0.00015193370762634065
+      "amount": 8.25365688619893,
+      "weight": 0.00015006648883998054,
+      "apr": 3.902010868168245
     },
     "0xcdb30c06ea11f3f5408bce5eefdb392dfe0008ef81af3a486bcfed891f9cc112": {
       "name": "Provide rUSD-HONEY Liquidity on Kodiak",
@@ -241,10 +260,11 @@
       "usdValue": 16993617.80979875,
       "multiplier": 2.69,
       "duration": 90,
-      "points": 4114154871.7522774,
+      "points": 45712831.90835864,
       "bucket": "One",
-      "amount": 48188.059739122924,
-      "weight": 0.8761465407113259
+      "amount": 47595.843226876554,
+      "weight": 0.8653789677613919,
+      "apr": 7.667209083544617
     },
     "0xa74b61544834483b093531cff533d01788a5dea12d8a83902646111025303bfb": {
       "name": "Provide WBTC-pumpBTC.bera Liquidity on Kodiak",
@@ -253,10 +273,11 @@
       "usdValue": 2615561.752252961,
       "multiplier": 2.69,
       "duration": 90,
-      "points": 633227500.2204418,
+      "points": 7035861.113560465,
       "bucket": "One",
-      "amount": 7416.834212680422,
-      "weight": 0.13485153113964404
+      "amount": 7325.683589203936,
+      "weight": 0.1331942470764352,
+      "apr": 7.667209083544615
     },
     "0x258ac521d801d5112a484ad1b82e6fd2efc24aba29e5cd3d56db83f4a173dc90": {
       "name": "Supply beraETH on Dolomite",
@@ -265,10 +286,11 @@
       "usdValue": 962200.8217737006,
       "multiplier": 1,
       "duration": 30,
-      "points": 28866024.65321102,
+      "points": 962200.8217737006,
       "bucket": "One",
-      "amount": 338.100475986088,
-      "weight": 0.006147281381565235
+      "amount": 1001.8359737091425,
+      "weight": 0.01821519952198441,
+      "apr": 8.550790799492137
     },
     "0x289dc2a22ebb4ef7404de9293b6718d9f81f0843e1af4cf9a9c51d2e757348d6": {
       "name": "Provide WBTC-SBTC Liquidity on Kodiak",
@@ -277,10 +299,11 @@
       "usdValue": 3894021.359759254,
       "multiplier": 2.69,
       "duration": 90,
-      "points": 942742571.1977154,
+      "points": 10474917.457752394,
       "bucket": "One",
-      "amount": 11042.106278352381,
-      "weight": 0.20076556869731604
+      "amount": 10906.402170251291,
+      "weight": 0.19829822127729618,
+      "apr": 7.667209083544617
     },
     "0xb1d5ccc4388fe639f8d949061bc2de95ecb1efb11c5ceb93bdb71caab58c8aa3": {
       "name": "Supply solvBTC on Dolomite",
@@ -289,10 +312,11 @@
       "usdValue": 29362580.863970146,
       "multiplier": 1,
       "duration": 90,
-      "points": 2642632277.7573133,
+      "points": 29362580.863970146,
       "bucket": "One",
-      "amount": 30952.48624290766,
-      "weight": 0.5627724771437757
+      "amount": 30572.089656131484,
+      "weight": 0.555856175566027,
+      "apr": 2.850263599830712
     },
     "0xb27f671bc0dd8773a25136253acd72150dd59e50e44dc8439e9dc5c84c2b19f6": {
       "name": "Supply STONE on Dolomite",
@@ -301,10 +325,11 @@
       "usdValue": 2338014.889486036,
       "multiplier": 1,
       "duration": 90,
-      "points": 210421340.0537432,
+      "points": 2338014.889486036,
       "bucket": "One",
-      "amount": 2464.612155102803,
-      "weight": 0.04481113009277824
+      "amount": 2434.322825703844,
+      "weight": 0.044260415012797164,
+      "apr": 2.8502635998307118
     },
     "0xd77d3e3e075394a6c94a8c83dab114bb7266b96c5234e4a98476f41339029c30": {
       "name": "Beraborrow beraETH Boyco",
@@ -313,10 +338,11 @@
       "usdValue": 246904.50848983412,
       "multiplier": 1.369,
       "duration": 90,
-      "points": 30421104.49103246,
+      "points": 338012.2721225829,
       "bucket": "One",
-      "amount": 356.31473443283636,
-      "weight": 0.006478449716960662
+      "amount": 351.93573535235487,
+      "weight": 0.006398831551860998,
+      "apr": 3.9020108681682446
     },
     "0x28b337bd45eda5e2fc596bfe22320bef0af9da85d4c770d0fd03ddf72428c00a": {
       "name": "Beraborrow SolvBTC Boyco",
@@ -325,10 +351,11 @@
       "usdValue": 38927514.855170734,
       "multiplier": 1.369,
       "duration": 90,
-      "points": 4796259105.305586,
+      "points": 53291767.83672874,
       "bucket": "One",
-      "amount": 56177.374818255084,
-      "weight": 1.0214068148773652
+      "amount": 55486.972067819916,
+      "weight": 1.0088540375967257,
+      "apr": 3.902010868168245
     },
     "0xfe95d44ab171140b66fb5180e9de765578d9d2bfbdbb66307abb86ba05a59e93": {
       "name": "Beraborrow pumpBTC Boyco",
@@ -337,10 +364,11 @@
       "usdValue": 204651429.28387323,
       "multiplier": 1.369,
       "duration": 90,
-      "points": 25215102602.06602,
+      "points": 280167806.68962246,
       "bucket": "One",
-      "amount": 295338.1455956122,
-      "weight": 5.369784465374767
+      "amount": 291708.5301376579,
+      "weight": 5.303791457048325,
+      "apr": 3.902010868168245
     },
     "0x027987432679079fbbc990691d14dabe7f7780f51df6a1a53e7bd875b1f9581a": {
       "name": "D2 Finance Kodiak++, Boyco",
@@ -349,10 +377,11 @@
       "usdValue": 256340.369183243,
       "multiplier": 1.5,
       "duration": 90,
-      "points": 34605949.8397378,
+      "points": 384510.5537748645,
       "bucket": "Two",
-      "amount": 1454.5862902967133,
-      "weight": 0.03232413978437141
+      "amount": 1441.6360436903096,
+      "weight": 0.03203635652645132,
+      "apr": 15.395463001697996
     },
     "0x9778047cb8f3740866882a97a186dff42743bebb3ad8010edbf637ab0e37751f": {
       "name": "Supply HONEY on Dolomite x Infrared",
@@ -361,10 +390,11 @@
       "usdValue": 11135590.323424906,
       "multiplier": 1.5,
       "duration": 90,
-      "points": 1503304693.6623623,
+      "points": 16703385.485137358,
       "bucket": "Two",
-      "amount": 63188.16295078293,
-      "weight": 1.4041813989062875
+      "amount": 62625.595918302955,
+      "weight": 1.3916799092956214,
+      "apr": 15.395463001697992
     },
     "0x6262ac035c2284f5b5249a690a6fd81c35f1ecef501da089f25741a4492cf5f3": {
       "name": "Infrared x Kodiak WBTC-HONEY LP",
@@ -373,10 +403,11 @@
       "usdValue": 30344695.728500642,
       "multiplier": 4.2,
       "duration": 90,
-      "points": 11470294985.373243,
+      "points": 127447722.0597027,
       "bucket": "Two",
-      "amount": 482129.0532018373,
-      "weight": 10.71397896004083
+      "amount": 477836.6367417576,
+      "weight": 10.618591927594615,
+      "apr": 43.107296404754386
     },
     "0xa6905c68ad66ea9ce966aa1662e1417df08be333ab8ec04507e0f0301d3a78e9": {
       "name": "Supply wBTC on Dolomite x Infrared",
@@ -385,10 +416,11 @@
       "usdValue": 19564643.618888192,
       "multiplier": 1.5,
       "duration": 90,
-      "points": 2641226888.549906,
+      "points": 29346965.428332288,
       "bucket": "Two",
-      "amount": 111018.2624502367,
-      "weight": 2.467072498894149
+      "amount": 110029.86190904108,
+      "weight": 2.445108042423135,
+      "apr": 15.395463001697996
     },
     "0xc6887dddd833a3d585c7941cd31b0f8ff3ec5903d49cd5e7ac450b46532d3e79": {
       "name": "Supply stBTC on Dolomite",
@@ -397,10 +429,11 @@
       "usdValue": 24408499.677169852,
       "multiplier": 1,
       "duration": 30,
-      "points": 732254990.3150955,
+      "points": 24408499.677169852,
       "bucket": "One",
-      "amount": 8576.71826110569,
-      "weight": 0.15594033202010346
+      "amount": 25413.939052535858,
+      "weight": 0.4620716191370156,
+      "apr": 8.550790799492134
     },
     "0xd10bdc88272e0958baa62a4ae2bfce1d8feed639a93e03c0aa5cec7adfbdf2c3": {
       "name": "Suppy uniBTC on Dolomite",
@@ -409,10 +442,11 @@
       "usdValue": 5985778.989987,
       "multiplier": 1,
       "duration": 30,
-      "points": 179573369.69961,
+      "points": 5985778.989987,
       "bucket": "One",
-      "amount": 2103.297648334481,
-      "weight": 0.03824177542426329
+      "amount": 6232.346291065349,
+      "weight": 0.11331538711027907,
+      "apr": 8.550790799492136
     },
     "0x1997c604de34a71974228bca4a66f601427c48960b6e59ff7ebc8e34f43f3ecf": {
       "name": "Infrared x Kodiak beraETH-STONE LP",
@@ -421,10 +455,11 @@
       "usdValue": 86714250.03584988,
       "multiplier": 1.369,
       "duration": 90,
-      "points": 10684062746.917063,
+      "points": 118711808.2990785,
       "bucket": "One",
-      "amount": 125139.7358519218,
-      "weight": 2.275267924580396
+      "amount": 123601.80678171501,
+      "weight": 2.247305577849364,
+      "apr": 3.9020108681682446
     },
     "0xab27dc8061f66791bb94a536546b08ba15e06344dabad2cc6267cf44f0070574": {
       "name": "Provide pumpBTC.bera-FBTC Liquidity on Kodiak",
@@ -433,10 +468,11 @@
       "usdValue": 1734.6920723994426,
       "multiplier": 1.369,
       "duration": 90,
-      "points": 213731.4102403353,
+      "points": 2374.793447114837,
       "bucket": "One",
-      "amount": 2.5033821734575703,
-      "weight": 0.00004551603951741036
+      "amount": 2.472616372393761,
+      "weight": 0.0000449566613162502,
+      "apr": 3.9020108681682446
     },
     "0x5043bfe3f6bab5fa4c8f19fb2f6856de2d2e717a541e0d7126b308926be04e2e": {
       "name": "Supply USDe to Concrete x Ethena Vault",
@@ -445,10 +481,11 @@
       "usdValue": 55769654.41424765,
       "multiplier": 2.69,
       "duration": 90,
-      "points": 13501833333.689356,
+      "points": 150020370.37432617,
       "bucket": "One",
-      "amount": 158143.57299446836,
-      "weight": 2.8753376908085158
+      "amount": 156200.03686248898,
+      "weight": 2.840000670227073,
+      "apr": 7.667209083544615
     },
     "0x6b3dfac03cea102e59d2d5711088f3001782e07239dcc90f274dd9762220c49a": {
       "name": "Beraborrow ylrsETH Boyco",
@@ -457,10 +494,11 @@
       "usdValue": 7734.234531119401,
       "multiplier": 1.369,
       "duration": 90,
-      "points": 952935.0365792214,
+      "points": 10588.16707310246,
       "bucket": "One",
-      "amount": 11.161488058086832,
-      "weight": 0.00020293614651066967
+      "amount": 11.024316784434715,
+      "weight": 0.00020044212335335846,
+      "apr": 3.9020108681682446
     },
     "0x71cee3cf3329e9a2803d578cdd6c823d7a16aa39adea3a7053395299bd258800": {
       "name": "BurrBear USDC Stable Pool",
@@ -469,10 +507,11 @@
       "usdValue": 2474730.332140268,
       "multiplier": 1.35,
       "duration": 90,
-      "points": 300679735.3550426,
+      "points": 3340885.9483893616,
       "bucket": "Two",
-      "amount": 12638.422665551741,
-      "weight": 0.28085383701226097
+      "amount": 12525.902224979272,
+      "weight": 0.27835338277731714,
+      "apr": 13.855916701528196
     },
     "0xab689b5eac7541b8cc774f0ca3705a91b21660e8221fc7bd8e93c391fb5d690d": {
       "name": "Provide USDe-USDa Liquidity on Kodiak",
@@ -481,10 +520,11 @@
       "usdValue": 3849.5599704161696,
       "multiplier": 1.369,
       "duration": 90,
-      "points": 474304.28395497624,
+      "points": 5270.047599499736,
       "bucket": "One",
-      "amount": 5.555406610157508,
-      "weight": 0.00010100739291195468
+      "amount": 5.487132362458199,
+      "weight": 0.00009976604295378545,
+      "apr": 3.9020108681682446
     },
     "0x72679855f582a6d908bf39d40cb5a299b6a98a82bf1bfd9055f1853fc5160f54": {
       "name": "Supply uniBTC into Goldilocks",
@@ -493,10 +533,11 @@
       "usdValue": 19135800,
       "multiplier": 1.369,
       "duration": 90,
-      "points": 2357721918,
+      "points": 26196910.2,
       "bucket": "One",
-      "amount": 27615.40296231815,
-      "weight": 0.5020982356785119
+      "amount": 27276.018108162156,
+      "weight": 0.49592760196658464,
+      "apr": 3.902010868168245
     },
     "0xece925dbccbb21333dbe99679fef655ad2dc2cb185e0963711c944e302595b28": {
       "name": "Supply WBTC to Concrete x Lombard Vault",
@@ -505,10 +546,11 @@
       "usdValue": 118383708.55076136,
       "multiplier": 2.69,
       "duration": 90,
-      "points": 28660695840.139324,
+      "points": 318452176.00154805,
       "bucket": "One",
-      "amount": 335695.5113168197,
-      "weight": 6.103554751214904
+      "amount": 331569.9161804916,
+      "weight": 6.0285439305543935,
+      "apr": 7.6672090835446145
     },
     "0xf8663b3c0f78b4efae0422b163e86e79afa1ce90778885d93d53c9d4f6d5c3d8": {
       "name": "Kodiak x Beraborrow WETH-HONEY to mint NECT, Boyco",
@@ -517,10 +559,11 @@
       "usdValue": 203311.06294909964,
       "multiplier": 4.2,
       "duration": 90,
-      "points": 76851581.79475966,
+      "points": 853906.4643862185,
       "bucket": "Two",
-      "amount": 3230.290102828192,
-      "weight": 0.07178422450729316
+      "amount": 3201.5306859954394,
+      "weight": 0.07114512635545421,
+      "apr": 43.10729640475438
     },
     "0x5f7935e257b94aee6caf9bbe917d4cfad75e8bc3b231806769ca0935af8371e8": {
       "name": "Infrared x Kodiak USDe-HONEY LP",
@@ -529,10 +572,11 @@
       "usdValue": 20268740.05800107,
       "multiplier": 2.69,
       "duration": 90,
-      "points": 4907061968.042059,
+      "points": 54522910.75602288,
       "bucket": "One",
-      "amount": 57475.18084045202,
-      "weight": 1.0450032880082185
+      "amount": 56768.82845103577,
+      "weight": 1.0321605172915593,
+      "apr": 7.6672090835446145
     },
     "0x2dcd8ec59fe12b4cb802f5a26445f9684635c52139560f169a7c4d67da186c18": {
       "name": "Restake waBTC on SatLayer",
@@ -541,10 +585,11 @@
       "usdValue": 14602067.43574476,
       "multiplier": 1,
       "duration": 90,
-      "points": 1314186069.2170284,
+      "points": 14602067.43574476,
       "bucket": "One",
-      "amount": 15392.730411429786,
-      "weight": 0.27986782566235974
+      "amount": 15203.558463699243,
+      "weight": 0.2764283357036226,
+      "apr": 2.8502635998307118
     },
     "0xd70673b98af7096f575717d70fbf2fa935dd719926b55c0e011480678cdac563": {
       "name": "Provide sUSDa-USDa Liquidity on Kodiak",
@@ -553,10 +598,11 @@
       "usdValue": 20017925.220303405,
       "multiplier": 1.369,
       "duration": 90,
-      "points": 2466408566.3935823,
+      "points": 27404539.626595363,
       "bucket": "One",
-      "amount": 28888.422298949077,
-      "weight": 0.5252440417990741
+      "amount": 28533.39242659474,
+      "weight": 0.5187889532108134,
+      "apr": 3.902010868168245
     },
     "0x0194c329e2b9712802c37d3f17502bcefce2e128933f24f4fe847dfc7e5e8965": {
       "name": "Supply ylBTCLST on Dolomite",
@@ -565,10 +611,11 @@
       "usdValue": 1409.4989992800001,
       "multiplier": 1,
       "duration": 30,
-      "points": 42284.969978400004,
+      "points": 1409.4989992800001,
       "bucket": "One",
-      "amount": 0.49527320261483077,
-      "weight": 0.00000900496732026965
+      "amount": 1.4675593394139177,
+      "weight": 0.00002668289708025305,
+      "apr": 8.550790799492137
     },
     "0x25f7a422282a1f26d9d96b5d1c43fa5c6f8c355b0ed7a4755ac8d04a504817f5": {
       "name": "Provide rsETH-beraETH Liquidity on Kodiak",
@@ -577,10 +624,11 @@
       "usdValue": 4726408.1894148,
       "multiplier": 1.369,
       "duration": 90,
-      "points": 582340753.0177975,
+      "points": 6470452.811308862,
       "bucket": "One",
-      "amount": 6820.810560054464,
-      "weight": 0.1240147374555357
+      "amount": 6736.984884930027,
+      "weight": 0.12249063427145503,
+      "apr": 3.902010868168245
     },
     "0x897eec875e51d6c8b5339d6a9984a00acb0aa86f9d4ab4eddbb4a791bb0a88e9": {
       "name": "Beraborrow ylpumpBTC Boyco",
@@ -589,10 +637,11 @@
       "usdValue": 715.1591913999999,
       "multiplier": 1.369,
       "duration": 90,
-      "points": 88114.763972394,
+      "points": 979.0529330265999,
       "bucket": "One",
-      "amount": 1.0320660360537113,
-      "weight": 0.00001876483701915839
+      "amount": 1.0193822602057403,
+      "weight": 0.000018534222912831642,
+      "apr": 3.902010868168245
     },
     "0xcdd60ed30d20f9edc3fac624bb623db32103658b6da678949ef53df16139b488": {
       "name": "Kodiak x Beraborrow WBTC-HONEY to mint NECT, Boyco",
@@ -601,10 +650,11 @@
       "usdValue": 512519.34469051333,
       "multiplier": 4.2,
       "duration": 90,
-      "points": 193732312.29301405,
+      "points": 2152581.247700156,
       "bucket": "Two",
-      "amount": 8143.118936308172,
-      "weight": 0.18095819858462606
+      "amount": 8070.620385294773,
+      "weight": 0.17934711967321718,
+      "apr": 43.107296404754386
     },
     "0xf8f745f188ddb10c16724faee95583521191c3c69e15490fa53c1136b73c17d7": {
       "name": "Infrared x Kodiak USDT0-HONEY LP, Boyco",
@@ -613,10 +663,11 @@
       "usdValue": 1429690.7190474062,
       "multiplier": 1.35,
       "duration": 90,
-      "points": 173707422.36425987,
+      "points": 1930082.4707139984,
       "bucket": "Two",
-      "amount": 7301.415978003033,
-      "weight": 0.1622536884000674
+      "amount": 7236.4111459612095,
+      "weight": 0.16080913657691576,
+      "apr": 13.855916701528196
     },
     "0x72bec627884d7bdf538f174bedd551e9eccf3995adc880f40972e2bab87df3b9": {
       "name": "Infrared x Kodiak USDC-HONEY LP",
@@ -625,10 +676,11 @@
       "usdValue": 7614582.029475887,
       "multiplier": 1.35,
       "duration": 90,
-      "points": 925171716.5813204,
+      "points": 10279685.73979245,
       "bucket": "Two",
-      "amount": 38887.59306829248,
-      "weight": 0.864168734850944
+      "amount": 38541.37509310372,
+      "weight": 0.8564750020689715,
+      "apr": 13.855916701528201
     },
     "0xd6e9ff1fa0c9c6bb25cafcb76c61c0d398a479ba073509e10209271f40a01712": {
       "name": "Provide WBTC-FBTC Liquidity on Kodiak",
@@ -637,10 +689,11 @@
       "usdValue": 12947.727830288053,
       "multiplier": 2.69,
       "duration": 90,
-      "points": 3134644.9077127376,
+      "points": 34829.38786347486,
       "bucket": "One",
-      "amount": 36.71530624938858,
-      "weight": 0.0006675510227161561
+      "amount": 36.264086367725284,
+      "weight": 0.0006593470248677325,
+      "apr": 7.6672090835446145
     },
     "0xde894ab596c084e65d0123ab6fa66f95b0571091cd8ec7efbeabe4942e7c40cd": {
       "name": "Restake LBTC on SatLayer",
@@ -649,10 +702,11 @@
       "usdValue": 117459944.31094971,
       "multiplier": 1,
       "duration": 90,
-      "points": 10571394987.985474,
+      "points": 117459944.31094971,
       "bucket": "One",
-      "amount": 123820.0867703217,
-      "weight": 2.25127430491494
+      "amount": 122298.37578361371,
+      "weight": 2.2236068324293403,
+      "apr": 2.8502635998307118
     },
     "0x036d9e250c6dafef1dd361199181548f9990a00452abf5231cebe7a15f9e19bd": {
       "name": "Restake pumpBTC on Satlayer",
@@ -661,10 +715,11 @@
       "usdValue": 117036.20654053762,
       "multiplier": 1,
       "duration": 90,
-      "points": 10533258.588648386,
+      "points": 117036.20654053762,
       "bucket": "One",
-      "amount": 123.3734047306862,
-      "weight": 0.0022431528132852035
+      "amount": 121.85718332959398,
+      "weight": 0.0022155851514471634,
+      "apr": 2.850263599830712
     },
     "0xff0182973d5f1e9a64392c413caaa75f364f24632a7de0fdd1a31fe30517fdd2": {
       "name": "Veda x Ether.fi weETH Vault",
@@ -673,10 +728,11 @@
       "usdValue": 141076180.04998857,
       "multiplier": 2.69,
       "duration": 90,
-      "points": 34154543190.10223,
+      "points": 379494924.33446926,
       "bucket": "One",
-      "amount": 400043.56153615407,
-      "weight": 7.273519300657346
+      "amount": 395127.1485483281,
+      "weight": 7.184129973605965,
+      "apr": 7.667209083544615
     },
     "0x20ca89af1fd136d0ef9c4e3e74e8ab1943d28e6879206a3e180fd35e29fb2d7d": {
       "name": "Lend USDC on Dahlia (WBERA&#x2F;USDC)",
@@ -685,10 +741,11 @@
       "usdValue": 36399.47670527297,
       "multiplier": 1.5,
       "duration": 90,
-      "points": 4913929.355211851,
+      "points": 54599.21505790946,
       "bucket": "Two",
-      "amount": 206.54639750329952,
-      "weight": 0.0045899199445177665
+      "amount": 204.70750571587146,
+      "weight": 0.004549055682574921,
+      "apr": 15.395463001697996
     },
     "0xb36f14fd392b9a1d6c3fabedb9a62a63d2067ca0ebeb63bbc2c93b11cc8eb3a2": {
       "name": "Veda x Ether.fi eBTC Vault - wBTC Supply",
@@ -697,10 +754,11 @@
       "usdValue": 123938630.72369272,
       "multiplier": 2.69,
       "duration": 90,
-      "points": 30005542498.206005,
+      "points": 333394916.6467334,
       "bucket": "One",
-      "amount": 351447.36148265353,
-      "weight": 6.389952026957337
+      "amount": 347128.18092667713,
+      "weight": 6.31142147139413,
+      "apr": 7.667209083544615
     },
     "0xfa4917a871f9cf06d3d00be6678993888b3aac41c3da21edf32c3c9cf3978d70": {
       "name": "Provide USDa-HONEY Liquidity on Kodiak",
@@ -709,10 +767,11 @@
       "usdValue": 1153888.0112939177,
       "multiplier": 2.69,
       "duration": 90,
-      "points": 279356287.5342575,
+      "points": 3103958.7503806385,
       "bucket": "One",
-      "amount": 3272.0298316010876,
-      "weight": 0.05949145148365614
+      "amount": 3231.817585967473,
+      "weight": 0.05876031974486315,
+      "apr": 7.667209083544615
     },
     "0xfef8ead03d79cf7cbe6f73c8d1136f8c84f6cf6ed9bc208719e7fcee807cb336": {
       "name": "Beraborrow RSETH Boyco",
@@ -721,10 +780,11 @@
       "usdValue": 1663743.8371237624,
       "multiplier": 1.369,
       "duration": 90,
-      "points": 204989878.17201874,
+      "points": 2277665.3130224305,
       "bucket": "One",
-      "amount": 2400.994810159288,
-      "weight": 0.04365445109380524
+      "amount": 2371.4873184675284,
+      "weight": 0.04311795124486415,
+      "apr": 3.9020108681682446
     },
     "0x0a7565b14941c6a3dde083fb7a857e27e12c55fa34f709c37586ec585dbe7f3f": {
       "name": "Supply wETH on Dolomite x Infrared",
@@ -733,10 +793,11 @@
       "usdValue": 128586107.94099534,
       "multiplier": 1.5,
       "duration": 90,
-      "points": 17359124572.03437,
+      "points": 192879161.911493,
       "bucket": "Two",
-      "amount": 729653.2743926935,
-      "weight": 16.214517208726523
+      "amount": 723157.1387535848,
+      "weight": 16.07015863896855,
+      "apr": 15.395463001697996
     },
     "0x49104b3cadbb31470e5b949c6892a33954ee9ce35041df4a04a88eb694b645c0": {
       "name": "Provide WBTC-waBTC Liquidity on Kodiak",
@@ -745,10 +806,11 @@
       "usdValue": 1962058.8928852717,
       "multiplier": 2.69,
       "duration": 90,
-      "points": 475014457.9675243,
+      "points": 5277938.42186138,
       "bucket": "One",
-      "amount": 5563.724699487787,
-      "weight": 0.10115863089977795
+      "amount": 5495.348225015323,
+      "weight": 0.09991542227300587,
+      "apr": 7.667209083544615
     },
     "0x7e804adb4c426b81fbe1f005f92d8dee99f98b0502c3946ac5ad436b453c6435": {
       "name": "Lend USDC on Dahlia (sUSDe&#x2F;USDC)",
@@ -757,10 +819,11 @@
       "usdValue": 653906.8660273431,
       "multiplier": 1.5,
       "duration": 90,
-      "points": 88277426.91369131,
+      "points": 980860.2990410146,
       "bucket": "Two",
-      "amount": 3710.550801985974,
-      "weight": 0.0824566844885772
+      "amount": 3677.5156027325106,
+      "weight": 0.08172256894961136,
+      "apr": 15.395463001697992
     },
     "0x5bac1cacdd36b3d95a7f9880a264f8481ab56d3d1a53993de084c6fa5febcc15": {
       "name": "Supply ylstETH on Dolomite",
@@ -769,10 +832,11 @@
       "usdValue": 3681.2730539031986,
       "multiplier": 1,
       "duration": 30,
-      "points": 110438.19161709596,
+      "points": 3681.2730539031986,
       "bucket": "One",
-      "amount": 1.2935347212290755,
-      "weight": 0.000023518813113255916
+      "amount": 3.8329127256905684,
+      "weight": 0.00006968932228528306,
+      "apr": 8.550790799492136
     },
     "0xbe5cd829fcb3cdfe8224ad72fc3379198d38da26131c5b7ab6664c8f56a9730d": {
       "name": "Supply NECT on Dolomite",
@@ -781,10 +845,11 @@
       "usdValue": 99489.22260085716,
       "multiplier": 1,
       "duration": 90,
-      "points": 8954030.034077145,
+      "points": 99489.22260085716,
       "bucket": "One",
-      "amount": 104.87629844722836,
-      "weight": 0.0019068417899496066
+      "amount": 103.58740082362674,
+      "weight": 0.0018834072877023044,
+      "apr": 2.850263599830712
     },
     "0x568d2509ec17c27426a9d55e58673160c937aeaedc0a3fcc7c63c5b7df495ec7": {
       "name": "Kodiak x Beraborrow WBTC-WETH to mint NECT, Boyco",
@@ -793,10 +858,11 @@
       "usdValue": 10796832.000123616,
       "multiplier": 4.2,
       "duration": 90,
-      "points": 4081202496.046727,
+      "points": 45346694.40051919,
       "bucket": "Two",
-      "amount": 171544.5241690056,
-      "weight": 3.812100537089013
+      "amount": 170017.25562069987,
+      "weight": 3.7781612360155528,
+      "apr": 43.10729640475438
     },
     "0xb32d047eb63b5c2af537c2e4df6a09c40a50b75aefd83a928600241a4666b087": {
       "name": "Beraborrow uniBTC Boyco",
@@ -805,10 +871,11 @@
       "usdValue": 52722763.317061916,
       "multiplier": 1.369,
       "duration": 90,
-      "points": 6495971668.295198,
+      "points": 72177462.98105776,
       "bucket": "One",
-      "amount": 76085.67994479406,
-      "weight": 1.3833759989962555
+      "amount": 75150.61021480829,
+      "weight": 1.3663747311783323,
+      "apr": 3.902010868168245
     },
     "0xc90525132d909f992363102ebd6298d95b1f312acdb9421fd1f7ac0c0dd78d3f": {
       "name": "Supply rswETH on Dolomite",
@@ -817,10 +884,11 @@
       "usdValue": 3328766.9415713646,
       "multiplier": 1,
       "duration": 30,
-      "points": 99863008.24714094,
+      "points": 3328766.9415713646,
       "bucket": "One",
-      "amount": 1169.6702620949625,
-      "weight": 0.021266732038090225
+      "amount": 3465.886117216682,
+      "weight": 0.06301611122212149,
+      "apr": 8.550790799492136
     },
     "0x378d4d32d89450978d01cfdf1ff1907d4419aa186c48abb94e612b76d75f3fae": {
       "name": "Provide SolvBTC-SolvBTC.BBN Liquidity on Kodiak",
@@ -829,10 +897,11 @@
       "usdValue": 19058660.564435598,
       "multiplier": 1.369,
       "duration": 90,
-      "points": 2348217568.1441097,
+      "points": 26091306.312712334,
       "bucket": "One",
-      "amount": 27504.08090641263,
-      "weight": 0.5000741982984115
+      "amount": 27166.064166267486,
+      "weight": 0.4939284393866815,
+      "apr": 3.902010868168245
     },
     "0x415f935bbb9bf1bdc1f49f2ca763d5b2406efbf9cc949836880dd5bbd054db95": {
       "name": "Supply rsETH on Dolomite",
@@ -841,10 +910,11 @@
       "usdValue": 2517086.908651751,
       "multiplier": 1,
       "duration": 90,
-      "points": 226537821.7786576,
+      "points": 2517086.908651751,
       "bucket": "One",
-      "amount": 2653.3804461258105,
-      "weight": 0.0482432808386511
+      "amount": 2620.771212179178,
+      "weight": 0.04765038567598505,
+      "apr": 2.850263599830712
     },
     "0x2dd74f8f8a8d7f27b2a82a6edce57b201f9b4a3c4780934caf99363115e48be6": {
       "name": "Supply sUSDa on Dolomite",
@@ -853,10 +923,11 @@
       "usdValue": 21099972.350281302,
       "multiplier": 1,
       "duration": 30,
-      "points": 632999170.5084391,
+      "points": 21099972.350281302,
       "bucket": "One",
-      "amount": 7414.159844275443,
-      "weight": 0.1348029062595535
+      "amount": 21969.126263905488,
+      "weight": 0.3994386593437362,
+      "apr": 8.550790799492136
     },
     "0x568f3bb6ba4c6afe37899fda35bc315ae8167274685ea295e03cf20d471afd8b": {
       "name": "Provide WBTC-uniBTC Liquidity on Kodiak",
@@ -865,10 +936,11 @@
       "usdValue": 903026.8060968631,
       "multiplier": 2.69,
       "duration": 90,
-      "points": 218622789.75605056,
+      "points": 2429142.108400562,
       "bucket": "One",
-      "amount": 2560.6736696840157,
-      "weight": 0.04655770308516392
+      "amount": 2529.203773658503,
+      "weight": 0.04598552315742733,
+      "apr": 7.667209083544617
     },
     "0xaa636d73f39ea0de0e04ed9270eac5d943707e7f8fb9c3480c0d80eb015ccfc8": {
       "name": "Provide pumpBTC.bera-ylpumpBTC Liquidity on Kodiak",
@@ -877,10 +949,11 @@
       "usdValue": 2325448.8248735187,
       "multiplier": 1.369,
       "duration": 90,
-      "points": 286518549.7126662,
+      "points": 3183539.441251847,
       "bucket": "One",
-      "amount": 3355.9196044655264,
-      "weight": 0.06101672008119138
+      "amount": 3314.676379187413,
+      "weight": 0.06026684325795297,
+      "apr": 3.902010868168245
     },
     "0xb9f307d83c78d09a134aac7713821aab8e1da2404b895db66f0975135dd5006e": {
       "name": "Beraborrow WETH Boyco",
@@ -889,10 +962,11 @@
       "usdValue": 622379.4720226387,
       "multiplier": 1.369,
       "duration": 90,
-      "points": 76683374.74790931,
+      "points": 852037.4971989923,
       "bucket": "One",
-      "amount": 898.1730534067026,
-      "weight": 0.01633041915284914
+      "amount": 887.1347813542101,
+      "weight": 0.016129723297349272,
+      "apr": 3.9020108681682446
     },
     "0x7dadff589e53d9813969d0be6de99c033d140ec1d304e57a754797736656dcd5": {
       "name": "Restake solvBTC.bbn on SatLayer",
@@ -901,10 +975,11 @@
       "usdValue": 145043542.88631436,
       "multiplier": 1,
       "duration": 90,
-      "points": 13053918859.768293,
+      "points": 145043542.88631436,
       "bucket": "One",
-      "amount": 152897.26358217027,
-      "weight": 2.7799502469485504
+      "amount": 151018.20298788918,
+      "weight": 2.7457855088707124,
+      "apr": 2.8502635998307118
     },
     "0x84790e638ddd7a59e64b8c239e96e29c2c6c155a9882a0c834b9ced016b7c999": {
       "name": "Beraborrow stBTC Boyco",
@@ -913,10 +988,11 @@
       "usdValue": 17464.30926847041,
       "multiplier": 1.369,
       "duration": 90,
-      "points": 2151777.544968239,
+      "points": 23908.63938853599,
       "bucket": "One",
-      "amount": 25.203228394284952,
-      "weight": 0.00045824051625972643
+      "amount": 24.893488427624824,
+      "weight": 0.0004526088805022695,
+      "apr": 3.9020108681682446
     },
     "0x4fa4a76aa8b93ccdddba0c20c336056803b7410fb375c9c9541e9c54fbfb2f9a": {
       "name": "Beraborrow ylBTCLST Boyco",
@@ -925,10 +1001,11 @@
       "usdValue": 9284.77008504,
       "multiplier": 1.369,
       "duration": 90,
-      "points": 1143976.5221777784,
+      "points": 12710.850246419759,
       "bucket": "One",
-      "amount": 13.399108859355582,
-      "weight": 0.00024362016107919239
+      "amount": 13.234437910600722,
+      "weight": 0.00024062614382910403,
+      "apr": 3.9020108681682446
     },
     "0xaa449e0679bd82798c7896c6a031f2da55299e64c0b4bddd57ad440921c04628": {
       "name": "THJ&#x2F;Set and Forgetti - USDC Vault, Henlo Boyco",
@@ -937,10 +1014,11 @@
       "usdValue": 41983175.08637059,
       "multiplier": 1.35,
       "duration": 90,
-      "points": 5100955772.994027,
+      "points": 56677286.3666003,
       "bucket": "Two",
-      "amount": 214407.6486606617,
-      "weight": 4.764614414681372
+      "amount": 212498.76780362547,
+      "weight": 4.722194840080566,
+      "apr": 13.855916701528196
     },
     "0x2240151f263be555a4ef61476a5c111373e0efe8cd539f179b4b5850977e9d4e": {
       "name": "Provide USDe-NECT Liquidity on Kodiak",
@@ -949,10 +1027,11 @@
       "usdValue": 113458.21091083129,
       "multiplier": 1.369,
       "duration": 90,
-      "points": 13979186.166323522,
+      "points": 155324.29073692803,
       "bucket": "One",
-      "amount": 163.7346864874365,
-      "weight": 0.0029769942997715728
+      "amount": 161.72243728109174,
+      "weight": 0.0029404079505653043,
+      "apr": 3.9020108681682446
     },
     "0x9c7bd5b59ebcb9a9e6787b9b174a98a69e27fa5a4fe98270b461a1b9b1b1aa3e": {
       "name": "Supply USDT on Dolomite x Infrared",
@@ -961,10 +1040,11 @@
       "usdValue": 3082632.6098699574,
       "multiplier": 1.5,
       "duration": 90,
-      "points": 416155402.33244425,
+      "points": 4623948.914804936,
       "bucket": "Two",
-      "amount": 17492.192691402015,
-      "weight": 0.388715393142267
+      "amount": 17336.458919846817,
+      "weight": 0.3852546426632626,
+      "apr": 15.395463001697996
     },
     "0x88ee202388086447b8dc8403c5aa2cfbcdb52e749fd16af5c6a3c7bb614b17c9": {
       "name": "Beraborrow STONE Boyco",
@@ -973,10 +1053,11 @@
       "usdValue": 2942348.6844131434,
       "multiplier": 1.369,
       "duration": 90,
-      "points": 362526781.4065434,
+      "points": 4028075.348961593,
       "bucket": "One",
-      "amount": 4246.184877335446,
-      "weight": 0.07720336140609901
+      "amount": 4194.000564208447,
+      "weight": 0.07625455571288085,
+      "apr": 3.9020108681682446
     },
     "0x9a117f13c7d5d2b4b18e444f72e6e77c010a1fd90cf21135be75669d66ad9428": {
       "name": "Infrared x Kodiak MIM-HONEY LP",
@@ -985,10 +1066,11 @@
       "usdValue": 3925176.8910100074,
       "multiplier": 2.69,
       "duration": 90,
-      "points": 950285325.3135228,
+      "points": 10558725.83681692,
       "bucket": "One",
-      "amount": 11130.452657441225,
-      "weight": 0.20237186649893135
+      "amount": 10993.662799368527,
+      "weight": 0.19988477817033684,
+      "apr": 7.6672090835446145
     },
     "0x21c6a0baa6f41b060937be5a4f1be096b63f426c50f763b4dabd1af46803fa2f": {
       "name": "Provide uniBTC-ylBTCLST Liquidity on Kodiak",
@@ -997,10 +1079,11 @@
       "usdValue": 9483988.302631246,
       "multiplier": 1.369,
       "duration": 90,
-      "points": 1168522198.7671957,
+      "points": 12983579.986302176,
       "bucket": "One",
-      "amount": 13686.606186680125,
-      "weight": 0.2488473852123659
+      "amount": 13518.40198372516,
+      "weight": 0.2457891269768211,
+      "apr": 3.9020108681682446
     },
     "0xab32e1695b84b148140cb78c044d247e307b26cb043dc5538657f3a5634dee6e": {
       "name": "Supply rsETH into Goldilocks",
@@ -1009,10 +1092,11 @@
       "usdValue": 1896293.3236476767,
       "multiplier": 1.369,
       "duration": 90,
-      "points": 233642300.40663025,
+      "points": 2596025.5600736695,
       "bucket": "One",
-      "amount": 2736.593414818517,
-      "weight": 0.04975624390579122
+      "amount": 2702.9615189436045,
+      "weight": 0.04914475488988372,
+      "apr": 3.9020108681682446
     },
     "0x6306bfce6bff30ec4efcea193253c43e057f1474007d0d2a5a0c2938bd6a9b81": {
       "name": "Supply ylpumpBTC on Dolomite",
@@ -1021,10 +1105,11 @@
       "usdValue": 95142.87132667999,
       "multiplier": 1,
       "duration": 30,
-      "points": 2854286.1398003995,
+      "points": 95142.87132667999,
       "bucket": "One",
-      "amount": 33.43153461762388,
-      "weight": 0.0006078460839567979
+      "amount": 99.06201385417832,
+      "weight": 0.001801127524621424,
+      "apr": 8.550790799492136
     },
     "0x290aad1fabd8d2557d28a3854a2433ddc11a35f0d12936dd99102067ac515d07": {
       "name": "Provide WBTC-SolvBTC Liquidity on Kodiak",
@@ -1033,10 +1118,11 @@
       "usdValue": 2104922.3238900304,
       "multiplier": 2.69,
       "duration": 90,
-      "points": 509601694.6137763,
+      "points": 5662241.051264182,
       "bucket": "One",
-      "amount": 5968.836290488956,
-      "weight": 0.1085242961907083
+      "amount": 5895.48111849698,
+      "weight": 0.10719056579085419,
+      "apr": 7.667209083544617
     },
     "0xa31a8bb230f77a5d286985b92fe8d0c7504a1892568d70685659f781aec78209": {
       "name": "Supply LBTC to Concrete x Lombard Vault",
@@ -1045,10 +1131,11 @@
       "usdValue": 235254302.86838037,
       "multiplier": 2.69,
       "duration": 90,
-      "points": 56955066724.43488,
+      "points": 632834074.7159432,
       "bucket": "One",
-      "amount": 667100.3506958054,
-      "weight": 12.129097285378279
+      "amount": 658901.8914686401,
+      "weight": 11.98003439033891,
+      "apr": 7.6672090835446145
     },
     "0xdd3f0e11d59726f2e63fc1b180abc94034dd3e0f4018b51371b73348d82b3769": {
       "name": "Restake uniBTC on SatLayer",
@@ -1057,10 +1144,11 @@
       "usdValue": 388175.95275228005,
       "multiplier": 1,
       "duration": 90,
-      "points": 34935835.74770521,
+      "points": 388175.95275228005,
       "bucket": "One",
-      "amount": 409.1946444713157,
-      "weight": 0.007439902626751194
+      "amount": 404.1657674737645,
+      "weight": 0.007348468499522991,
+      "apr": 2.8502635998307126
     },
     "0x54b4b37c355868591a91baed36a3c8083f6480ccb11145106d0dad912d7dffd2": {
       "name": "Beraborrow SolvBTC.BBN Boyco",
@@ -1069,10 +1157,11 @@
       "usdValue": 94574198.90924263,
       "multiplier": 1.369,
       "duration": 90,
-      "points": 11652487047.607784,
+      "points": 129472078.30675316,
       "bucket": "One",
-      "amount": 136482.64575910935,
-      "weight": 2.4815026501656243
+      "amount": 134805.31579622652,
+      "weight": 2.451005741749573,
+      "apr": 3.902010868168245
     },
     "0xaf2a845c9d6007128b7aec375a4fcdee2b12bbaeb78caf928d3bd08e104417d6": {
       "name": "Infrared x Kodiak WETH-beraETH LP",
@@ -1081,10 +1170,11 @@
       "usdValue": 26626824.89774905,
       "multiplier": 2.69,
       "duration": 90,
-      "points": 6446354307.745046,
+      "points": 71626158.97494495,
       "bucket": "One",
-      "amount": 75504.52429829551,
-      "weight": 1.372809532696282
+      "amount": 74576.59679341497,
+      "weight": 1.3559381235166357,
+      "apr": 7.667209083544615
     },
     "0x4dd921e829db80e73c56d888eeaf46a7934a3c4a2f7f78231dd4502f8eaa2558": {
       "name": "Lend wETH on Dahlia (STONE&#x2F;wETH)",
@@ -1093,10 +1183,11 @@
       "usdValue": 1182148.3922799209,
       "multiplier": 1.5,
       "duration": 90,
-      "points": 159590032.95778933,
+      "points": 1773222.5884198812,
       "bucket": "Two",
-      "amount": 6708.022033304775,
-      "weight": 0.14906715629566164
+      "amount": 6648.300214013621,
+      "weight": 0.14774000475585825,
+      "apr": 15.395463001697992
     },
     "0x7ccce28638cbb503d17e8d9290a97f18731199655ccde282da7b464f21361b79": {
       "name": "Restake SBTC on SatLayer",
@@ -1105,10 +1196,11 @@
       "usdValue": 2346771.8464694624,
       "multiplier": 1,
       "duration": 90,
-      "points": 211209466.1822516,
+      "points": 2346771.8464694624,
       "bucket": "One",
-      "amount": 2473.8432779327395,
-      "weight": 0.04497896868968617
+      "amount": 2443.440500858235,
+      "weight": 0.04442619092469518,
+      "apr": 2.8502635998307118
     },
     "0xb7b78119806fcb9bbc499131da16b52ce52cf4a1ceabfc59e4f2f6e6ef7046c0": {
       "name": "D2 Finance HyperBERA.USDC, Boyco",
@@ -1117,10 +1209,11 @@
       "usdValue": 9995994.068183472,
       "multiplier": 1.5,
       "duration": 30,
-      "points": 449819733.06825626,
+      "points": 14993991.102275208,
       "bucket": "Two",
-      "amount": 18907.20005825941,
-      "weight": 0.42016000129465353
+      "amount": 56216.60523905435,
+      "weight": 1.2492578942012076,
+      "apr": 46.18638900509398
     },
     "0x7ecf55915abe3c24dc5d8365a8edabc8833f4efb8e7c027429c9528aed91ecb7": {
       "name": "Infrared x Kodiak WETH-STONE LP",
@@ -1129,10 +1222,11 @@
       "usdValue": 278783626.6674209,
       "multiplier": 2.69,
       "duration": 90,
-      "points": 67493516016.1826,
+      "points": 749927955.7353623,
       "bucket": "One",
-      "amount": 790534.5528244593,
-      "weight": 14.37335550589926
+      "amount": 780819.1250147801,
+      "weight": 14.196711363905093,
+      "apr": 7.6672090835446145
     },
     "0x86a5077c6a9190cde78ec75b8888c46ed0a3d1289054127a955a2af544633cf3": {
       "name": "Supply USDa on Dolomite",
@@ -1141,10 +1235,11 @@
       "usdValue": 2788206.983405592,
       "multiplier": 1,
       "duration": 30,
-      "points": 83646209.50216776,
+      "points": 2788206.983405592,
       "bucket": "One",
-      "amount": 979.7269830838668,
-      "weight": 0.01781321787425212
+      "amount": 2903.059314555161,
+      "weight": 0.052782896628275656,
+      "apr": 8.550790799492136
     },
     "0xa655556eb64a0fd18b9a3c80794ab370743bc431a4b2a6116fa97dcc7f741a2b": {
       "name": "Origami USDC Boyco Vault",
@@ -1153,10 +1248,11 @@
       "usdValue": 68972359.07046597,
       "multiplier": 1.35,
       "duration": 90,
-      "points": 8380141627.061616,
+      "points": 93112684.74512906,
       "bucket": "Two",
-      "amount": 352241.1370853729,
-      "weight": 7.827580824119397
+      "amount": 349105.1185345276,
+      "weight": 7.757891522989501,
+      "apr": 13.855916701528198
     },
     "0x3ef317447bd10825f0a053565f8474a460cfb22cda414ea30b671e304f0691b6": {
       "name": "Provide beraETH-RSWETH Liquidity on Kodiak",
@@ -1165,10 +1261,11 @@
       "usdValue": 198274.35508960375,
       "multiplier": 1.369,
       "duration": 90,
-      "points": 24429383.290590078,
+      "points": 271437.59211766755,
       "bucket": "One",
-      "amount": 286.13521320734765,
-      "weight": 0.005202458421951776
+      "amount": 282.6186989730351,
+      "weight": 0.00513852179950973,
+      "apr": 3.902010868168245
     },
     "0x17ffd16948c053cc184c005477548e559566879a0e2847e87ebd1111c602535c": {
       "name": "Infrared x Kodiak WETH-HONEY LP",
@@ -1177,10 +1274,11 @@
       "usdValue": 41621949.66254719,
       "multiplier": 4.2,
       "duration": 90,
-      "points": 15733096972.442839,
+      "points": 174812188.58269823,
       "bucket": "Two",
-      "amount": 661306.7193938195,
-      "weight": 14.695704875418212
+      "amount": 655419.0761816215,
+      "weight": 14.56486835959159,
+      "apr": 43.1072964047544
     },
     "0x9b60d30f266858fa671bf268796aa503700310e31a8f46ebaa8f8281fbad89aa": {
       "name": "Provide WBTC-stBTC Liquidity on Kodiak",
@@ -1189,10 +1287,11 @@
       "usdValue": 13447.561854674708,
       "multiplier": 2.69,
       "duration": 90,
-      "points": 3255654.7250167467,
+      "points": 36173.941389074964,
       "bucket": "One",
-      "amount": 38.13266375950641,
-      "weight": 0.0006933211592637529
+      "amount": 37.66402498764932,
+      "weight": 0.0006848004543208967,
+      "apr": 7.667209083544615
     },
     "0xa588ad19850cf2a111c3c727033da8e557abc94de70fce2d2b2f2f78140f15e5": {
       "name": "Supply USDe on Dolomite",
@@ -1201,11 +1300,12 @@
       "usdValue": 750526.9476067723,
       "multiplier": 1,
       "duration": 90,
-      "points": 67547425.28460951,
+      "points": 750526.9476067723,
       "bucket": "One",
-      "amount": 791.1659785068721,
-      "weight": 0.01438483597285222
+      "amount": 781.4427906687253,
+      "weight": 0.014208050739431368,
+      "apr": 2.8502635998307126
     }
   },
-  "emitted": 10000000
+  "emitted": 9999999.999999996
 }

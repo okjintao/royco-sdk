@@ -22,6 +22,8 @@ import { overrideMarketMap } from './compare';
 // const result = await contract.queryFilter(filter);
 // console.log(result);
 
+const beraPrice = 6.75;
+
 const claims = Object.fromEntries(Object.entries({
     ["0x9999b99AD237BaB0Dc8fd7aaf2CAceB7A8A89999"]: 4.943677709305667633,
     "0xD248d2f09bFbe04e67fC7Fea08828D6AD6d95B6D": 8.39970015739336706,
@@ -49,10 +51,10 @@ const claims = Object.fromEntries(Object.entries({
     "0xED3981C6220dFcd368268b180b87AB643ce04b75": 239.86558804423955848,
 }).map((e) => [e[0].toLowerCase(), e[1]]));
 
-console.log(`Found ${Object.values(claims).length} claims`);
-const totalClaimed = Object.values(claims).reduce((t,c) => t += c, 0);
-console.log(`Claimed ${totalClaimed} BERA`);
-console.log(43988.291381501009248025 + totalClaimed);
+// console.log(`Found ${Object.values(claims).length} claims`);
+// const totalClaimed = Object.values(claims).reduce((t,c) => t += c, 0);
+// console.log(`Claimed ${totalClaimed} BERA`);
+// console.log(43988.291381501009248025 + totalClaimed);
 
 interface AccountEntitlement {
     [address: string]: {
@@ -86,6 +88,7 @@ function processData() {
         bucket: string;
         amount: number;
         weight: number;
+        apr: number;
     }> = {};
 
     for (const key of Object.keys(positionsByMarket)) {
@@ -94,7 +97,7 @@ function processData() {
         const usdValue = positionsByMarket[key].inputTokenAmountUSD;
         const marketData = marketLookup[marketId];
         if (!marketData) {
-            console.log('No market data for', marketId);
+            // console.log('No market data for', marketId);
             continue;
         }
         let duration = marketData.lockup_time ? Number(marketData.lockup_time) / (60 * 60 * 24) : 90;
@@ -104,9 +107,9 @@ function processData() {
         let multiplier = overrideMarketMap.find((e) => e.id === marketId)?.multiplier;
         if (!multiplier) {
             multiplier = 1;
-            console.log('found missing multiplier for ', marketId);
+            // console.log('found missing multiplier for ', marketId);
         }
-        const points = multiplier * duration * usdValue;
+        const points = multiplier * usdValue;
         
         totalTvl += usdValue;
         totalPoints += points;
@@ -140,6 +143,7 @@ function processData() {
             bucket,
             amount: 0,
             weight: 0,
+            apr: 0,
         };
     }
 
@@ -157,6 +161,7 @@ function processData() {
         const beraAllocation = pointsPercentage * beraPool;
         entry.amount = beraAllocation;
         entry.weight = pointsPercentage * 100;
+        entry.apr = (((365 / entry.duration) * beraAllocation * beraPrice) / entry.usdValue) * 100;
     }
 
     // console.log({
@@ -191,6 +196,7 @@ function processData() {
     const accountEntitlements: AccountEntitlement = {};
     const thirtyDayAccountEntitlements: AccountEntitlement = {};
     const ninetyDayAccountEntitlements: AccountEntitlement = {};
+    const accountPositions = {};
     for (const entry of Object.values(positionsByMarketByAccount)) {
         const marketId = entry.marketId.slice(4);
         const marketInfo = marketAllocations[marketId];
@@ -213,6 +219,12 @@ function processData() {
                 });
             }
             includedMarkets.add(marketId);
+        }
+        
+        if (!accountPositions[entry.accountAddress]) {
+            accountPositions[entry.accountAddress] = [entry];
+        } else {
+            accountPositions[entry.accountAddress].push(entry);
         }
 
         const percentage = entry.inputTokenAmountUSD / marketInfo.usdValue;
@@ -253,7 +265,7 @@ function processData() {
 
         if (claimed > amount) {
             leakedBera += claimed - amount;
-            console.log(`${key} leaked ${claimed - amount}`)
+            // console.log(`${key} leaked ${claimed - amount}`)
             delete thirtyDayAccountEntitlements[key];
             removedAccounts++
         } else if (claimed > 0) {
@@ -266,24 +278,37 @@ function processData() {
             //     claimed,
             // })
             const reduction = owed / entitlement;
-            console.log(`${key} deficient ${owed}, reduce by ${((1 - reduction) * 100).toFixed(2)}%`);
+            // console.log(`${key} deficient ${owed}, reduce by ${((1 - reduction) * 100).toFixed(2)}%`);
             Object.entries(value).forEach((e) => thirtyDayAccountEntitlements[key][e[0]] *= reduction);
         }
     }
 
-    const testCheckEntitlements = Object.values(thirtyDayAccountEntitlements["0x14975679e5f87c25fa2c54958e735a79B5B93043".toLowerCase()]).reduce((t, c) => t += c, 0);
+    // const testCheckEntitlements = Object.values(thirtyDayAccountEntitlements["0x14975679e5f87c25fa2c54958e735a79B5B93043".toLowerCase()]).reduce((t, c) => t += c, 0);
 
-    console.log({
-        leakedBera,
-        deficientBera,
-        removedAccounts,
-        testCheckEntitlements
-    });
+    // console.log({
+    //     leakedBera,
+    //     deficientBera,
+    //     removedAccounts,
+    //     testCheckEntitlements
+    // });
 
     const totalTokensDistributed = Object.values(thirtyDayAccountEntitlements).reduce((t, c) => {
         const v = Object.values(c).reduce((t2, c2) => t2 += c2, 0);
         return t + v;
     }, 0)
+
+    for (const [address, markets] of Object.entries(accountEntitlements)) {
+
+        for (const [marketId, amount] of Object.entries(markets)) {
+            const position = accountPositions[address].find((p) => marketId === p.marketId.slice(4));
+            const duration = Number(position.lockup_time) / (60 * 60 * 24);
+            const apr = (((365 / duration) * amount * beraPrice) / position.inputTokenAmountUSD) * 100;
+            const expectedApr = marketAllocations[marketId].apr;
+            if (apr < expectedApr * 0.99 || apr > expectedApr * 1.01) {
+                throw new Error(`${marketId}, gave unexpected APR for ${address}`);
+            }
+        }
+    }
 
     writeFileSync('user-allocations.json', JSON.stringify(accountEntitlements, undefined, 2));
     writeFileSync('user-allocations-ninety-day.json', JSON.stringify(ninetyDayAccountEntitlements, undefined, 2));
